@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import ServiceCard from "@/components/ServiceCard";
 import ReviewCard from "@/components/ReviewCard";
 import CTASection from "@/components/CTASection";
@@ -82,38 +83,63 @@ export default function HomePage() {
   return (
     <>
       {/* HERO */}
-      <section className="bg-gradient-to-br from-brand-dark via-brand-blue to-[#1a7fd4] text-white py-20 px-4 text-center relative overflow-hidden">
+      <section className="bg-gradient-to-br from-brand-dark via-[#0d3fa8] to-brand-blue text-white py-24 px-4 text-center relative overflow-hidden">
+        {/* Logo watermark behind text */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none">
+          <Image
+            src="/kwiklogo.avif"
+            alt=""
+            width={520}
+            height={520}
+            className="opacity-[0.07] w-[380px] md:w-[520px]"
+            priority
+            aria-hidden="true"
+          />
+        </div>
+        {/* Red accent stripe at top */}
+        <div className="absolute top-0 left-0 right-0 h-1.5 bg-brand-red" />
         <div className="relative z-10 max-w-5xl mx-auto">
-          <span className="inline-block bg-brand-orange text-white text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-6">
-            ⚡ Providence&apos;s #1 Rated Plumber
-          </span>
-          <h1 className="text-4xl md:text-6xl font-black leading-tight mb-5 drop-shadow-lg">
+          {/* Logo + badge row */}
+          <div className="flex items-center justify-center gap-4 mb-6">
+            <Image
+              src="/kwiklogo.avif"
+              alt="Kwik Plumbing and Heating"
+              width={80}
+              height={80}
+              className="rounded-full border-4 border-brand-red shadow-xl"
+              priority
+            />
+            <span className="bg-brand-red text-white text-xs font-black uppercase tracking-widest px-4 py-2 rounded-full shadow-lg">
+              ⭐ Rhode Island&apos;s #1 Rated Plumber
+            </span>
+          </div>
+          <h1 className="text-5xl md:text-7xl font-black leading-tight mb-5 drop-shadow-lg">
             Providence RI&apos;s Most Trusted<br />
-            <span className="text-brand-orange">Plumbing Company</span>
+            <span className="text-brand-orange">Plumbing &amp; Heating</span>
           </h1>
-          <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto mb-8">
-            Kwik Plumbing and Heating Inc. — Rhode Island&apos;s #1 trusted plumbing &amp; heating service provider. Boilers, tankless water heaters, gas lines, drain cleaning &amp; more. Serving Providence and all of Rhode Island for {SITE.yearsServing} years.
+          <p className="text-xl md:text-2xl opacity-90 max-w-2xl mx-auto mb-10">
+            Licensed master plumbers. Boilers, gas lines, drain cleaning, water heaters &amp; more — serving all of Rhode Island for {SITE.yearsServing} years.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
               href={SITE.phoneHref}
-              className="px-8 py-4 bg-brand-orange text-white rounded-full font-bold text-base hover:-translate-y-0.5 hover:shadow-xl transition-all"
+              className="px-10 py-5 bg-brand-red text-white rounded-full font-black text-xl hover:-translate-y-1 hover:shadow-2xl transition-all shadow-lg"
             >
-              📞 Call {SITE.phone}
+              📞 {SITE.phone}
             </a>
             <Link
               href="/contact"
-              className="px-8 py-4 bg-white/15 text-white border-2 border-white/60 rounded-full font-bold text-base backdrop-blur-sm hover:-translate-y-0.5 hover:shadow-xl transition-all"
+              className="px-10 py-5 bg-white/15 text-white border-2 border-white/60 rounded-full font-bold text-xl backdrop-blur-sm hover:-translate-y-1 hover:shadow-2xl transition-all"
             >
-              Get a Free Estimate
+              View Contact Info
             </Link>
           </div>
           {/* Stats */}
-          <div className="flex flex-wrap justify-center gap-10 mt-14 pt-10 border-t border-white/20">
+          <div className="flex flex-wrap justify-center gap-10 mt-16 pt-10 border-t border-white/20">
             {stats.map((s) => (
               <div key={s.label} className="text-center">
-                <div className="text-3xl font-black text-brand-orange">{s.num}</div>
-                <div className="text-xs uppercase tracking-wider opacity-80 mt-1">{s.label}</div>
+                <div className="text-4xl font-black text-brand-orange">{s.num}</div>
+                <div className="text-sm uppercase tracking-wider opacity-80 mt-1">{s.label}</div>
               </div>
             ))}
           </div>

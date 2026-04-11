@@ -3,26 +3,27 @@
 @tailwind utilities;
 
 @layer base {
-  html { scroll-behavior: smooth; }
+  html { scroll-behavior: smooth; font-size: 17px; }
   body { @apply text-gray-900 antialiased; }
+  h1, h2, h3, h4 { @apply tracking-tight; }
 }
 
 @layer components {
   /* Prose content styles used inside service pages */
   .prose-content h2 {
-    @apply text-2xl font-extrabold text-brand-dark mt-8 mb-3;
+    @apply text-3xl font-extrabold text-brand-dark mt-10 mb-4;
   }
   .prose-content h3 {
-    @apply text-lg font-bold text-gray-700 mt-6 mb-2;
+    @apply text-xl font-bold text-gray-800 mt-7 mb-3;
   }
   .prose-content p {
-    @apply text-gray-700 mb-4 leading-relaxed;
+    @apply text-gray-700 mb-5 leading-relaxed text-base;
   }
   .prose-content ul {
-    @apply space-y-2 mb-4 ml-4;
+    @apply space-y-2 mb-5 ml-4;
   }
   .prose-content ul li {
-    @apply relative pl-6 text-gray-700;
+    @apply relative pl-6 text-gray-700 text-base;
   }
   .prose-content ul li::before {
     content: "✓";

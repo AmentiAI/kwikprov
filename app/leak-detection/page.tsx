@@ -88,7 +88,7 @@ const faqs = [
   },
   {
     q: "How much does leak detection cost in Providence RI?",
-    a: "A leak detection service call typically runs $150–$300 for the diagnostic portion, which is then applied toward the repair cost when we do the repair. Compare this to the cost of exploratory demolition — opening walls and floors randomly trying to find a leak — and professional detection is almost always more cost-effective. We provide a clear repair estimate once the leak is located.",
+    a: "Call us at (401) 639-1047 for a free estimate. Professional leak detection is almost always more cost-effective than exploratory demolition — opening walls and floors randomly trying to find a leak. We locate it precisely first, then provide a clear repair estimate before any work begins.",
   },
   {
     q: "My water meter shows usage when nothing is running — do I have a leak?",

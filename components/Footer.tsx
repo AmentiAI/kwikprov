@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { SITE, HOURS } from "@/lib/constants";
 
 export default function Footer() {
@@ -8,7 +9,7 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <Link href="/" className="flex items-center gap-3 mb-4">
-            <div className="w-12 h-12 bg-brand-blue rounded-full flex items-center justify-center text-2xl shrink-0">🔧</div>
+            <Image src="/kwiklogo.avif" alt="Kwik Plumbing Logo" width={52} height={52} className="rounded-full shrink-0 border-2 border-brand-red" />
             <div>
               <p className="text-white font-extrabold text-base leading-tight">Kwik Plumbing<br/>and Heating Inc.</p>
               <p className="text-slate-400 text-xs mt-0.5">{SITE.slogan}</p>

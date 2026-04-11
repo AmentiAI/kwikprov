@@ -80,7 +80,7 @@ const faqs = [
   },
   {
     q: "How much does gas line installation cost in Providence RI?",
-    a: "Costs vary based on run length, pipe size, and access. A simple appliance hookup from an existing line runs $150–$400. Running a new branch line for a generator or outdoor kitchen typically costs $500–$1,500 depending on distance and complexity. Underground runs for outdoor fire features or generators cost more due to trenching. We provide free, detailed written estimates for all gas work.",
+    a: "Cost varies based on run length, pipe size, and site conditions. Call us at (401) 639-1047 — we'll assess your project and provide a free, detailed written estimate before any work begins. All gas work is permitted and pressure-tested.",
   },
   {
     q: "What should I do if I smell gas in my home?",

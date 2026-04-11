@@ -77,7 +77,7 @@ const faqs = [
   },
   {
     q: "How much does bathroom remodel plumbing cost in Rhode Island?",
-    a: "Rough-in plumbing for a standard bathroom remodel (moving existing fixtures to new locations, adding a shower) typically runs $1,500–$4,000 for the plumbing portion. Finish plumbing (setting fixtures, making final connections) adds $800–$2,000 depending on fixture count. Complex layouts, second-floor work, or cast iron drain replacement can increase these numbers. We provide free written estimates.",
+    a: "Cost depends on the scope — how much the layout changes, fixture count, and what's discovered behind the walls. Call us at (401) 639-1047 for a free written estimate. We assess the project before quoting so there are no surprises mid-renovation.",
   },
   {
     q: "Can you move the toilet or shower drain to a completely different location?",

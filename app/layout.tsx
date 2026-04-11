@@ -37,6 +37,11 @@ export const metadata: Metadata = {
       "15+ years serving Providence, Johnston, Cranston & all of Rhode Island. Licensed master plumbers. Call (401) 639-1047.",
   },
   robots: { index: true, follow: true },
+  icons: {
+    icon: "/kwiklogo.avif",
+    shortcut: "/kwiklogo.avif",
+    apple: "/kwiklogo.avif",
+  },
 };
 
 const localBusinessSchema = {

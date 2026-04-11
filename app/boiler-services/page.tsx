@@ -101,7 +101,7 @@ const navienBenefits = [
 const faqs = [
   {
     q: "How much does a boiler replacement cost in Rhode Island?",
-    a: "A standard gas boiler replacement in a Rhode Island home typically costs $4,000–$7,500 installed, including the unit, labor, permits, and disposal of the old boiler. High-efficiency condensing boilers run $5,500–$9,000 but qualify for National Grid rebates up to $600 and deliver long-term fuel savings. We provide free, written estimates for every project.",
+    a: "Cost depends on the boiler type, brand, efficiency level, and your home's existing setup. We provide free, written estimates for every project — call (401) 639-1047 and we'll quote you upfront before any work begins. High-efficiency units may also qualify for National Grid rebates.",
   },
   {
     q: "How do I know if my boiler needs replacement vs. repair?",

@@ -36,7 +36,7 @@ const tanklessBenefits = [
 
 const faqs = [
   { q: "How long should a water heater last in a Providence home?", a: "Tank water heaters typically last 8–12 years. Tankless water heaters can last 20+ years with proper maintenance. Providence's moderately hard water affects lifespan — regular maintenance can extend tank water heater life by 3–5 years." },
-  { q: "How much does water heater replacement cost in Providence RI?", a: "A standard tank water heater replacement typically costs $900–$2,000 installed, including the unit, installation labor, permit, and haul-away. Tankless installation runs $1,800–$3,500 depending on whether gas line upgrades or new venting is required. We provide free, written estimates — call (401) 555-5825." },
+  { q: "How much does water heater replacement cost in Providence RI?", a: "Cost depends on the type of unit, your home's existing setup, and whether gas line or venting upgrades are needed. We provide free, written estimates — call us at (401) 639-1047 and we'll give you an honest quote before any work begins." },
   { q: "Do I need a permit to replace my water heater in Providence?", a: "Yes. The City of Providence requires a permit for water heater replacement, and the installation must be inspected by a city plumbing inspector. This is important for insurance purposes and when selling your home. Kwik Plumbing handles all permit applications, inspection scheduling, and ensures all work passes RI code compliance." },
   { q: "What size water heater do I need for my Providence home?", a: "General guidelines: 1–2 people: 30–40 gallon tank; 2–4 people: 40–50 gallon; 4–6 people: 50–80 gallon. For tankless units, sizing is based on flow rate demand and incoming water temperature. Providence's cold New England winters mean incoming water temps are lower in winter, requiring higher BTU output. We'll assess your specific needs during our free estimate." },
 ];
@@ -109,7 +109,7 @@ export default function WaterHeaterPage() {
                 <div className="text-3xl mb-3">🪣</div>
                 <h4 className="font-bold text-brand-dark mb-3">Traditional Tank</h4>
                 <ul className="space-y-2 text-sm">
-                  <li className="flex gap-2"><span className="text-green-600 shrink-0">✅</span> Lower upfront cost ($800–$1,800 installed)</li>
+                  <li className="flex gap-2"><span className="text-green-600 shrink-0">✅</span> Lower upfront cost — call for a free estimate</li>
                   <li className="flex gap-2"><span className="text-green-600 shrink-0">✅</span> Simpler installation — no gas line upgrade</li>
                   <li className="flex gap-2"><span className="text-red-500 shrink-0">❌</span> Runs out of hot water with heavy use</li>
                   <li className="flex gap-2"><span className="text-red-500 shrink-0">❌</span> Higher energy use — heats water continuously</li>
@@ -123,7 +123,7 @@ export default function WaterHeaterPage() {
                   <li className="flex gap-2"><span className="text-green-600 shrink-0">✅</span> Endless hot water — no recovery time</li>
                   <li className="flex gap-2"><span className="text-green-600 shrink-0">✅</span> 24–34% energy savings</li>
                   <li className="flex gap-2"><span className="text-green-600 shrink-0">✅</span> 20+ year lifespan</li>
-                  <li className="flex gap-2"><span className="text-red-500 shrink-0">❌</span> Higher upfront cost ($1,500–$3,500 installed)</li>
+                  <li className="flex gap-2"><span className="text-red-500 shrink-0">❌</span> Higher upfront cost — call for a free estimate</li>
                   <li className="flex gap-2"><span className="text-red-500 shrink-0">❌</span> May require gas line or electrical upgrade</li>
                 </ul>
               </div>

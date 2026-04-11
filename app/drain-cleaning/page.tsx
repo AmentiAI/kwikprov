@@ -32,13 +32,13 @@ const hydrojetting = [
   "Bio-film that causes persistent drain odors",
 ];
 
-const pricingCards = [
-  { icon: "🚿", title: "Bathroom Drain Cleaning", desc: "Single tub, shower, or sink drain clearing using professional auger equipment.", price: "$150 – $250" },
-  { icon: "🍳", title: "Kitchen Drain Cleaning", desc: "Kitchen sink and dishwasher drain clearing including grease and food debris removal.", price: "$175 – $300" },
-  { icon: "🏠", title: "Main Sewer Line Clearing", desc: "Main sewer line snaking for blockages in the primary drain line serving the full property.", price: "$250 – $500" },
-  { icon: "💦", title: "Hydro-Jetting Service", desc: "High-pressure water jet cleaning of drain lines — the most thorough cleaning available.", price: "$350 – $650" },
-  { icon: "📹", title: "Camera Inspection + Cleaning", desc: "Video drain inspection combined with professional clearing. Ideal for recurring clogs.", price: "$400 – $750" },
-  { icon: "🔄", title: "Annual Maintenance Plan", desc: "Two professional drain cleanings per year plus priority scheduling.", price: "From $299/yr" },
+const serviceCards = [
+  { icon: "🚿", title: "Bathroom Drain Cleaning", desc: "Single tub, shower, or sink drain clearing using professional auger equipment." },
+  { icon: "🍳", title: "Kitchen Drain Cleaning", desc: "Kitchen sink and dishwasher drain clearing including grease and food debris removal." },
+  { icon: "🏠", title: "Main Sewer Line Clearing", desc: "Main sewer line snaking for blockages in the primary drain line serving the full property." },
+  { icon: "💦", title: "Hydro-Jetting Service", desc: "High-pressure water jet cleaning of drain lines — the most thorough cleaning available." },
+  { icon: "📹", title: "Camera Inspection + Cleaning", desc: "Video drain inspection combined with professional clearing. Ideal for recurring clogs." },
+  { icon: "🔄", title: "Annual Maintenance Plan", desc: "Two professional drain cleanings per year plus priority scheduling." },
 ];
 
 const faqs = [
@@ -121,7 +121,7 @@ export default function DrainCleaningPage() {
               "💦 Hydro-jetting available",
               "📹 Video camera inspection",
               "✅ Results guaranteed",
-              "💰 Upfront flat-rate pricing",
+              "💰 Free written estimates",
               "🏠 Historic home specialists",
             ]}
             ctaLabel="Book Drain Cleaning"
@@ -129,19 +129,18 @@ export default function DrainCleaningPage() {
         </div>
       </section>
 
-      {/* PRICING */}
+      {/* SERVICES */}
       <section className="bg-gray-50 py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="text-brand-orange text-xs font-bold uppercase tracking-widest text-center mb-2">Pricing</p>
-          <h2 className="text-2xl font-extrabold text-center mb-4">Drain Cleaning Pricing Guide — Providence RI</h2>
-          <p className="text-gray-500 text-center max-w-xl mx-auto mb-12">We believe in transparent pricing. We always provide a firm written quote before starting work.</p>
+          <p className="text-brand-orange text-xs font-bold uppercase tracking-widest text-center mb-2">Services</p>
+          <h2 className="text-2xl font-extrabold text-center mb-4">Drain Cleaning Services — Providence RI</h2>
+          <p className="text-gray-500 text-center max-w-xl mx-auto mb-12">Call us for a free estimate — we provide upfront written quotes before any work begins.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {pricingCards.map((c) => (
+            {serviceCards.map((c) => (
               <div key={c.title} className="bg-white rounded-xl p-8 shadow-card border-t-4 border-brand-blue">
                 <div className="text-4xl mb-3">{c.icon}</div>
                 <h3 className="font-bold text-brand-dark text-base mb-2">{c.title}</h3>
-                <p className="text-gray-500 text-sm mb-4">{c.desc}</p>
-                <p className="text-brand-blue font-extrabold text-lg">{c.price}</p>
+                <p className="text-gray-500 text-sm">{c.desc}</p>
               </div>
             ))}
           </div>

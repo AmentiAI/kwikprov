@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { NAV_LINKS, SERVICE_LINKS, SITE } from "@/lib/constants";
@@ -16,10 +17,15 @@ export default function Header() {
     <header className="bg-white border-b-[3px] border-brand-blue sticky top-0 z-50 shadow-md">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-4">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 no-underline shrink-0">
-          <div className="w-11 h-11 bg-brand-blue rounded-full flex items-center justify-center text-xl shrink-0">
-            🔧
-          </div>
+        <Link href="/" className="flex items-center gap-2 no-underline shrink-0">
+          <Image
+            src="/kwiklogo.avif"
+            alt="Kwik Plumbing and Heating Logo"
+            width={56}
+            height={56}
+            className="rounded-full shrink-0"
+            priority
+          />
           <div className="hidden sm:block">
             <p className="text-brand-dark font-extrabold text-base leading-tight">{SITE.name}</p>
             <p className="text-gray-500 text-xs uppercase tracking-wide">{SITE.tagline}</p>
