@@ -1656,6 +1656,10 @@ export const locations: Location[] = [
       }
     ]
   },
+  {
+    slug: "pawtucket",
+    name: "Pawtucket",
+    fullName: "Pawtucket, RI",
     metaTitle: "Plumber in Pawtucket RI | Kwik Plumbing",
     metaDescription: "Expert plumbing in Pawtucket RI. Aging mill-era housing, galvanized pipe replacement, drain cleaning, triple-decker plumbing service. plumber in Pawtucket.",
     keywords: ["plumber Pawtucket RI", "Pawtucket plumbing", "plumber Pawtucket Rhode Island", "galvanized pipe Pawtucket RI", "triple-decker plumber Pawtucket"],
