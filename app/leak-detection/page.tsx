@@ -8,15 +8,19 @@ import FAQList from "@/components/FAQList";
 export const metadata: Metadata = {
   title: "Leak Detection Providence RI | Hidden Leaks Found Fast",
   description:
-    "Advanced leak detection in Providence RI using electronic sensors, thermal imaging, and moisture mapping. Hidden leaks, pipe leaks, slab leaks, well pumps, and water filtration. Call Kwik Plumbing (401) 639-1047.",
+    "Advanced leak detection in Providence, Rhode Island using electronic sensors, thermal imaging, and moisture mapping. Hidden leaks, slab leaks, pipe leaks, well pump service, and water filtration. Serving Federal Hill, East Side, College Hill, Fox Point & all of Providence RI. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
     "leak detection Providence RI",
-    "hidden leak detection Rhode Island",
-    "slab leak detection Providence",
-    "water leak repair Providence RI",
-    "well pump installation Rhode Island",
+    "hidden leak detection Providence Rhode Island",
+    "slab leak detection Providence RI",
+    "water leak repair Providence Rhode Island",
+    "pipe leak detection Providence RI",
+    "plumber leak detection Providence Rhode Island",
+    "water leak Federal Hill Providence",
+    "thermal imaging leak detection Providence RI",
+    "well pump service Providence Rhode Island",
     "water filtration system Providence RI",
-    "plumber leak detection Johnston RI",
+    "non invasive leak detection Providence Rhode Island",
   ],
 };
 

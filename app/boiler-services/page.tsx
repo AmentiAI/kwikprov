@@ -8,15 +8,20 @@ import FAQList from "@/components/FAQList";
 export const metadata: Metadata = {
   title: "Boiler Services Providence RI | Install, Repair & Maintenance",
   description:
-    "Expert boiler installation, repair, and maintenance in Providence RI. Steam boilers, oil boilers, high-efficiency upgrades, Navien specialist. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
+    "Expert boiler installation, repair, and maintenance in Providence, Rhode Island. Steam boilers, oil boilers, high-efficiency upgrades, Navien specialist. Serving Federal Hill, East Side, Smith Hill, College Hill & all of Providence RI. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
     "boiler repair Providence RI",
-    "boiler installation Rhode Island",
+    "boiler installation Providence Rhode Island",
     "steam boiler repair Providence",
-    "oil boiler service RI",
-    "boiler maintenance Johnston RI",
-    "Navien boiler specialist Rhode Island",
-    "high efficiency boiler Providence",
+    "oil boiler service Providence RI",
+    "boiler maintenance Providence Rhode Island",
+    "Navien boiler specialist Providence RI",
+    "high efficiency boiler Providence Rhode Island",
+    "boiler replacement Providence RI",
+    "oil to gas boiler conversion Providence",
+    "no heat Providence RI plumber",
+    "boiler repair Federal Hill Providence",
+    "boiler service East Side Providence RI",
   ],
 };
 

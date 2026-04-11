@@ -8,15 +8,19 @@ import FAQList from "@/components/FAQList";
 export const metadata: Metadata = {
   title: "Gas Line Services Providence RI | Install, Repair & Safety",
   description:
-    "Licensed gas line installation, repair, and safety services in Providence RI. New gas lines, appliance hookups, generator lines, fire pit lines, fireplace gas, leak detection. Call Kwik Plumbing (401) 639-1047.",
+    "Licensed gas line installation, repair, and safety services in Providence, Rhode Island. New gas lines, appliance hookups, generator lines, fire pit lines, fireplace gas, and gas leak detection. Serving Federal Hill, East Side, College Hill & all of Providence RI. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
     "gas line installation Providence RI",
-    "gas pipe repair Rhode Island",
-    "gas leak detection Providence",
-    "gas line for generator RI",
-    "gas line for fire pit Providence",
-    "gas appliance hookup Rhode Island",
-    "licensed gas plumber Providence RI",
+    "gas pipe repair Providence Rhode Island",
+    "gas leak detection Providence RI",
+    "gas line for generator Providence RI",
+    "gas line for fire pit Providence Rhode Island",
+    "gas appliance hookup Providence RI",
+    "licensed gas plumber Providence Rhode Island",
+    "gas line repair Providence RI",
+    "gas safety inspection Providence",
+    "gas line contractor Providence Rhode Island",
+    "outdoor gas line installation Providence RI",
   ],
 };
 

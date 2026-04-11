@@ -6,10 +6,21 @@ import CTASection from "@/components/CTASection";
 import FAQList from "@/components/FAQList";
 
 export const metadata: Metadata = {
-  title: "Water Heater Repair & Replacement Providence RI",
+  title: "Water Heater Repair & Replacement Providence RI | Kwik Plumbing",
   description:
-    "Water heater repair and installation in Providence RI. Tank & tankless water heaters. Same-day service, all brands. Licensed plumbers. Call (401) 555-5825.",
-  keywords: ["water heater repair Providence RI", "water heater replacement Providence Rhode Island", "tankless water heater Providence RI", "hot water heater installation Providence"],
+    "Water heater repair and installation in Providence, Rhode Island. Tank and tankless water heaters — same-day service available. Navien, Rinnai, Rheem, Bradford White. Licensed master plumbers serving Federal Hill, East Side, Fox Point, College Hill & all of Providence RI. Call Kwik Plumbing (401) 639-1047.",
+  keywords: [
+    "water heater repair Providence RI",
+    "water heater replacement Providence Rhode Island",
+    "tankless water heater Providence RI",
+    "hot water heater installation Providence",
+    "water heater repair Federal Hill Providence",
+    "tankless water heater installation Providence Rhode Island",
+    "Navien water heater Providence RI",
+    "no hot water Providence RI",
+    "water heater plumber Providence Rhode Island",
+    "same day water heater repair Providence",
+  ],
 };
 
 const problems = [

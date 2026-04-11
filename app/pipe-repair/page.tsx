@@ -6,10 +6,21 @@ import CTASection from "@/components/CTASection";
 import FAQList from "@/components/FAQList";
 
 export const metadata: Metadata = {
-  title: "Pipe Repair & Replacement Providence RI | Repiping",
+  title: "Pipe Repair & Replacement Providence RI | Repiping Specialists",
   description:
-    "Pipe repair and replacement in Providence RI. Leaking pipes, burst pipes, repiping, frozen pipe repair. Licensed plumbers. Call Kwik Plumbing at (401) 555-5825.",
-  keywords: ["pipe repair Providence RI", "pipe replacement Providence Rhode Island", "burst pipe repair Providence", "repiping Providence RI", "leaking pipe Providence"],
+    "Expert pipe repair and replacement in Providence, Rhode Island. Leaking pipes, burst pipes, whole-home repiping, lead pipe replacement, and frozen pipe repair. Licensed master plumbers specializing in Providence's historic homes. Serving Federal Hill, East Side, College Hill, Smith Hill & all of Providence RI. Call Kwik Plumbing (401) 639-1047.",
+  keywords: [
+    "pipe repair Providence RI",
+    "pipe replacement Providence Rhode Island",
+    "burst pipe repair Providence",
+    "repiping Providence RI",
+    "leaking pipe Providence",
+    "whole home repiping Providence Rhode Island",
+    "lead pipe replacement Providence RI",
+    "frozen pipe repair Providence RI",
+    "galvanized pipe replacement Providence",
+    "licensed plumber pipe repair Providence Rhode Island",
+  ],
 };
 
 const warnings = [

@@ -8,14 +8,19 @@ import FAQList from "@/components/FAQList";
 export const metadata: Metadata = {
   title: "Bathroom Remodeling Providence RI | Plumbing for Renovations",
   description:
-    "Expert bathroom remodeling plumbing in Providence RI. Shower installation, wet rooms, complete bathroom fitting, toilet installation, vanity plumbing. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
+    "Expert bathroom remodeling plumbing in Providence, Rhode Island. Shower installation, wet rooms, complete bathroom fitting, toilet installation, and vanity plumbing. Specialists in Providence's historic homes. Serving Federal Hill, East Side, College Hill, Fox Point & all of Providence RI. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
     "bathroom remodeling Providence RI",
     "shower installation Providence Rhode Island",
-    "bathroom renovation plumber RI",
-    "wet room installation Providence",
-    "bathroom plumbing contractor Johnston RI",
-    "complete bathroom fitting Rhode Island",
+    "bathroom renovation plumber Providence RI",
+    "wet room installation Providence Rhode Island",
+    "bathroom plumbing contractor Providence RI",
+    "complete bathroom fitting Providence",
+    "bathroom rough in plumber Providence RI",
+    "vanity plumbing Providence Rhode Island",
+    "bathroom remodel Federal Hill Providence",
+    "shower installation East Side Providence RI",
+    "licensed bathroom plumber Providence Rhode Island",
   ],
 };
 

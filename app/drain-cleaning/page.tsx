@@ -9,8 +9,19 @@ import ServiceCard from "@/components/ServiceCard";
 export const metadata: Metadata = {
   title: "Drain Cleaning Providence RI | Clog Removal & Hydro-Jetting",
   description:
-    "Professional drain cleaning in Providence RI. Clogged drains, slow drains, hydro-jetting, sewer drain cleaning. Same-day service available. Call (401) 555-5825.",
-  keywords: ["drain cleaning Providence RI", "clogged drain Providence Rhode Island", "hydro jetting Providence RI", "drain clog removal Providence"],
+    "Professional drain cleaning in Providence, Rhode Island. Clogged drains, slow drains, hydro-jetting, main sewer line clearing, and camera inspection. Licensed master plumbers serving Federal Hill, East Side, Smith Hill & all of Providence RI. Call Kwik Plumbing (401) 639-1047.",
+  keywords: [
+    "drain cleaning Providence RI",
+    "clogged drain Providence Rhode Island",
+    "hydro jetting Providence RI",
+    "drain clog removal Providence",
+    "sewer line cleaning Providence RI",
+    "drain cleaning Federal Hill Providence",
+    "drain cleaning East Side Providence RI",
+    "main sewer line clearing Providence",
+    "plumber drain cleaning Providence Rhode Island",
+    "camera drain inspection Providence RI",
+  ],
 };
 
 const signs = [
@@ -167,7 +178,7 @@ export default function DrainCleaningPage() {
 
       <CTASection
         heading="Slow or Clogged Drains in Providence?<br/>We&apos;ll Clear Them Today."
-        subtext="Same-day drain cleaning appointments are available for Providence homeowners and businesses. Call now or book online for fast, affordable, professional service."
+        subtext="Same-day drain cleaning available for Providence, RI homeowners and businesses — from Federal Hill to the East Side. Licensed master plumbers. Free written estimates."
       />
     </>
   );
