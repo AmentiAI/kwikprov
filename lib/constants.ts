@@ -1,0 +1,93 @@
+export const SITE = {
+  name:         "Kwik Plumbing and Heating",
+  nameShort:    "Kwik Plumbing",
+  tagline:      "Providence & Johnston, Rhode Island",
+  phone:        "(401) 639-1047",
+  phoneHref:    "tel:4016391047",
+  email:        "kwikplumbingoffice@gmail.com",
+  address:      "1149 Hartford Avenue",
+  city:         "Johnston",
+  state:        "RI",
+  zip:          "02919",
+  license:      "Licensed Master Plumbers",
+  url:          "https://kwikplumbingprovidence.com",
+  founded:      "2009",
+  experience:   "15+",
+  rating:       "5.0",
+  reviewCount:  "200+",
+  jobsCount:    "5,000+",
+  yearsServing: "15+",
+  slogan:       "Rhode Island's #1 Trusted Service Provider",
+  warranty:     "1-Year Warranty on Most Work",
+  facebook:     "https://facebook.com/KwikPlumbing",
+  youtube:      "https://www.youtube.com/@KwikPlumbingHeating",
+};
+
+export const HOURS = {
+  weekdays: "Mon–Fri: 7:00 AM – 6:00 PM",
+  saturday: "Saturday: 8:00 AM – 4:00 PM",
+  sunday:   "Sunday: By appointment",
+};
+
+export const NAV_LINKS = [
+  { label: "Home",             href: "/" },
+  { label: "All Services",     href: "/services" },
+  { label: "Boiler Services",  href: "/boiler-services" },
+  { label: "Gas Services",     href: "/gas-services" },
+  { label: "Drain Cleaning",   href: "/drain-cleaning" },
+  { label: "Water Heaters",    href: "/water-heater" },
+  { label: "Pipe Repair",      href: "/pipe-repair" },
+  { label: "About",            href: "/about" },
+];
+
+// All service pages for dropdowns, footer, sitemap, etc.
+export const SERVICE_LINKS = [
+  { label: "Boiler Services",     href: "/boiler-services" },
+  { label: "Gas Services",        href: "/gas-services" },
+  { label: "Drain Cleaning",      href: "/drain-cleaning" },
+  { label: "Bathroom Remodeling", href: "/bathroom-remodeling" },
+  { label: "Water Heaters",       href: "/water-heater" },
+  { label: "Leak Detection",      href: "/leak-detection" },
+  { label: "Pipe Repair",         href: "/pipe-repair" },
+];
+
+export const AREAS: { name: string; slug: string }[] = [
+  { name: "Federal Hill",        slug: "federal-hill" },
+  { name: "East Side",           slug: "east-side" },
+  { name: "Wayland Square",      slug: "wayland-square" },
+  { name: "Fox Point",           slug: "fox-point" },
+  { name: "Smith Hill",          slug: "smith-hill" },
+  { name: "Olneyville",          slug: "olneyville" },
+  { name: "Mount Hope",          slug: "mount-hope" },
+  { name: "Broadway",            slug: "broadway" },
+  { name: "College Hill",        slug: "college-hill" },
+  { name: "Elmwood",             slug: "elmwood" },
+  { name: "West End",            slug: "west-end" },
+  { name: "Silver Lake",         slug: "silver-lake" },
+  { name: "Downtown Providence", slug: "downtown-providence" },
+  { name: "North Providence",    slug: "north-providence" },
+  { name: "Cranston RI",         slug: "cranston" },
+  { name: "East Providence",     slug: "east-providence" },
+  { name: "Johnston RI",         slug: "johnston" },
+  { name: "Pawtucket RI",        slug: "pawtucket" },
+  { name: "Lincoln RI",          slug: "lincoln" },
+  { name: "Warwick RI",          slug: "warwick" },
+];
+
+export const SERVICES_LIST = [
+  "Plumbing Services",
+  "Boiler Services",
+  "Heating Services",
+  "Bathroom Remodeling",
+  "Drainage Services",
+  "Gas Services",
+  "Pipe Repair & Replacement",
+  "Commercial Services",
+  "Leak Detection",
+  "Drain Cleaning",
+  "Fixture Installation",
+  "Tankless Water Heaters",
+  "Navien Specialist",
+  "CCTV Drain Surveys",
+  "Sewer Line Work",
+];
