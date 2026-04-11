@@ -135,7 +135,7 @@ export default function LeakDetectionPage() {
     <>
       <PageHeader
         breadcrumb="Leak Detection Providence RI"
-        title="Leak Detection &amp; Repair<br/>Providence &amp; Johnston, Rhode Island"
+        title="Leak Detection &amp; Repair<br/>Providence, Rhode Island"
         subtitle="Advanced non-invasive leak detection using electronic sensors, thermal imaging, and moisture mapping. We find hidden leaks fast — without unnecessary demolition — and repair them right."
       />
 
@@ -145,7 +145,7 @@ export default function LeakDetectionPage() {
             <p className="text-brand-orange text-xs font-bold uppercase tracking-widest mb-2">Advanced Leak Detection — Rhode Island</p>
             <h2>Find Hidden Leaks Without Tearing Up Your Providence Home</h2>
             <p>
-              A hidden water leak is one of the most insidious problems a homeowner faces. It can silently damage your home&apos;s structure, grow mold inside walls, and run your water bill up for months before it becomes visible. Kwik Plumbing&apos;s leak detection team serves Providence, Johnston, Cranston, Warwick, and all of Rhode Island with professional-grade detection technology that finds leaks before they become disasters — and without the destructive exploratory work that guesswork requires.
+              A hidden water leak is one of the most insidious problems a homeowner faces. It can silently damage your home&apos;s structure, grow mold inside walls, and run your water bill up for months before it becomes visible. Kwik Plumbing&apos;s leak detection team serves Providence, Cranston, Warwick, and all of Rhode Island with professional-grade detection technology that finds leaks before they become disasters — and without the destructive exploratory work that guesswork requires.
             </p>
             <p>
               We use electronic acoustic listening devices, infrared thermal imaging cameras, and digital moisture meters to locate leaks inside walls, under floors, and underground — then confirm location with targeted pressure testing before making a precise repair access. The result is a faster, cleaner fix with minimal disruption to your home.
@@ -244,7 +244,7 @@ export default function LeakDetectionPage() {
 
       <CTASection
         heading="Suspect a Hidden Leak in Your Providence Home?<br/>Call Kwik Plumbing."
-        subtext="Advanced non-invasive leak detection throughout Providence, Johnston, Cranston, Warwick & all of Rhode Island. We find the leak — then fix it right the first time."
+        subtext="Advanced non-invasive leak detection throughout Providence, Cranston, Warwick & all of Rhode Island. We find the leak — then fix it right the first time."
       />
     </>
   );

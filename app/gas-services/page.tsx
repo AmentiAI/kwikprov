@@ -108,7 +108,7 @@ const reviews = [
   {
     text: "Kwik ran a gas line from our basement to our new outdoor kitchen and connected the built-in grill. Professional crew, trenched and buried the line neatly, pulled the permit, and it passed inspection without a single issue. Great work.",
     name: "Michael R.",
-    location: "Johnston, RI",
+    location: "West End, Providence RI",
   },
   {
     text: "Had a gas smell in my basement. Kwik came out the same morning, found a pinhole leak in an old black iron fitting behind the furnace, and replaced the section properly. They also pressure tested the entire system before leaving. Very thorough.",
@@ -127,7 +127,7 @@ export default function GasServicesPage() {
     <>
       <PageHeader
         breadcrumb="Gas Line Services Providence RI"
-        title="Gas Line Services<br/>Providence &amp; Johnston, Rhode Island"
+        title="Gas Line Services<br/>Providence, Rhode Island"
         subtitle="Licensed gas line installation, repair, and safety services throughout Rhode Island. New gas lines, appliance hookups, generator connections, fire pit lines, and gas leak detection — all work permitted and code-compliant."
       />
 
@@ -137,7 +137,7 @@ export default function GasServicesPage() {
             <p className="text-brand-orange text-xs font-bold uppercase tracking-widest mb-2">Licensed Gas Plumbers — Rhode Island</p>
             <h2>Professional Gas Services for Providence RI Homes &amp; Businesses</h2>
             <p>
-              Gas line work is among the most safety-critical services a plumber performs. Rhode Island law requires that all gas piping work be completed by a licensed master plumber — and at Kwik Plumbing, every gas service we perform is done by our licensed, gas-safe certified team with all required permits and inspections. We serve Providence, Johnston, Cranston, Warwick, East Providence, and all of Rhode Island.
+              Gas line work is among the most safety-critical services a plumber performs. Rhode Island law requires that all gas piping work be completed by a licensed master plumber — and at Kwik Plumbing, every gas service we perform is done by our licensed, gas-safe certified team with all required permits and inspections. We serve Providence, Cranston, Warwick, East Providence, and all of Rhode Island.
             </p>
             <p>
               From connecting a new gas range to running underground lines for outdoor fire features to diagnosing gas leaks with electronic detection equipment, our team handles the full spectrum of residential and commercial gas work — safely, properly, and in compliance with Rhode Island code.
@@ -225,7 +225,7 @@ export default function GasServicesPage() {
 
       <CTASection
         heading="Need Gas Line Work in Providence RI?<br/>Call Kwik Plumbing."
-        subtext="Licensed master plumbers handling all gas line installation, repair, and safety work throughout Providence, Johnston, Cranston, Warwick & all of Rhode Island. All work permitted and inspected."
+        subtext="Licensed master plumbers handling all gas line installation, repair, and safety work throughout Providence, Cranston, Warwick & all of Rhode Island. All work permitted and inspected."
       />
     </>
   );

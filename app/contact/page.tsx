@@ -6,7 +6,7 @@ import { SITE, HOURS, SERVICE_LINKS } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Contact Kwik Plumbing Providence RI | Call (401) 639-1047",
   description:
-    "Call Kwik Plumbing and Heating at (401) 639-1047. Licensed master plumbers serving Providence, Johnston, Cranston, Warwick & all of Rhode Island.",
+    "Call Kwik Plumbing and Heating at (401) 639-1047. Licensed master plumbers serving Providence, Cranston, Warwick & all of Rhode Island.",
   keywords: ["contact plumber Providence RI", "plumber phone number Providence RI", "call plumber Rhode Island"],
 };
 
@@ -17,7 +17,7 @@ const info = [
   { icon: "🕐", label: "Mon – Fri", value: HOURS.weekdays },
   { icon: "🕐", label: "Saturday", value: HOURS.saturday },
   { icon: "🕐", label: "Sunday", value: HOURS.sunday },
-  { icon: "🗺️", label: "Service Area", value: "Providence, Johnston, Cranston, Warwick, East Providence, Pawtucket, North Providence & all of RI" },
+  { icon: "🗺️", label: "Service Area", value: "Providence, Cranston, Warwick, East Providence, Pawtucket, North Providence & all of RI" },
 ];
 
 export default function ContactPage() {

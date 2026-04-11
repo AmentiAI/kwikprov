@@ -1417,7 +1417,7 @@ export const locations: Location[] = [
       "North Providence homeowners expect quality work, fair pricing, and contractors who show up when they say they will. Kwik Plumbing delivers on all three counts, and our North Providence customer base reflects two decades of consistent service to the community. Whether you're in Fruit Hill, Woodbury, or any of North Providence's neighborhoods, you'll receive the same professional service that has made us Greater Providence's most trusted plumber.",
       "Our familiarity with North Providence's housing stock means we can give accurate estimates over the phone for common service calls, dispatch the right technician with the right parts for your specific situation, and complete most jobs in a single visit. North Providence homeowners value efficiency, and Kwik Plumbing delivers it."
     ],
-    nearbyAreas: ["Smith Hill", "Silver Lake", "Providence", "Pawtucket", "Johnston"],
+    nearbyAreas: ["Smith Hill", "Silver Lake", "Providence", "Pawtucket", "Cranston"],
     reviews: [
       {
         text: "Kwik Plumbing replaced all the galvanized pipes in our 1958 North Providence ranch. The rust-colored water we had accepted as normal is completely gone. The crew was professional, finished in two days, and cleaned up thoroughly. Excellent investment in our home.",
@@ -1518,7 +1518,7 @@ export const locations: Location[] = [
       "Cranston is a large city with many plumbing contractors competing for business, and Kwik Plumbing earns Cranston customers through consistently excellent work at fair prices. We don't rely on Cranston customers not knowing the market — our prices are competitive, our work is high quality, and we back everything with a satisfaction guarantee. Cranston homeowners who choose Kwik Plumbing once typically become long-term customers.",
       "Our geographic coverage of Cranston means that wherever you are in the city — whether you're in Edgewood near the bay or in the Auburn neighborhood near the Scituate border — you can expect the same fast response time and quality of service. We have enough coverage throughout the Providence metro area to guarantee 60-minute fast response citywide."
     ],
-    nearbyAreas: ["Elmwood", "West End", "Warwick", "Providence", "Johnston"],
+    nearbyAreas: ["Elmwood", "West End", "Warwick", "Providence", "East Providence"],
     reviews: [
       {
         text: "Kwik Plumbing has handled all our plumbing at our Edgewood home for years — from a complete galvanized repipe to annual water heater service to a couple of service calls. Always professional, always fairly priced, always quality work. They're our permanent Cranston plumber.",
@@ -1640,7 +1640,7 @@ export const locations: Location[] = [
     faqs: [
       {
         q: "Do you serve East Providence or only Providence city?",
-        a: "We serve East Providence fully, including Riverside, Rumford, Watchemoket, and all of East Providence's neighborhoods. Our service area covers all of Providence and the surrounding municipalities — East Providence, Cranston, North Providence, Johnston, Pawtucket, Lincoln, and Warwick. Call us at (401) 555-5825 and we can confirm coverage for your specific address."
+        a: "We serve East Providence fully, including Riverside, Rumford, Watchemoket, and all of East Providence's neighborhoods. Our service area covers all of Providence and the surrounding municipalities — East Providence, Cranston, North Providence, Pawtucket, Lincoln, and Warwick. Call us at (401) 639-1047 and we can confirm coverage for your specific address."
       },
       {
         q: "My Riverside home is used only seasonally. What plumbing services do I need?",
@@ -1656,111 +1656,6 @@ export const locations: Location[] = [
       }
     ]
   },
-  {
-    slug: "johnston",
-    name: "Johnston",
-    fullName: "Johnston, RI",
-    metaTitle: "Plumber in Johnston RI | Kwik Plumbing",
-    metaDescription: "Reliable plumbing services in Johnston RI. Atwood Avenue, Joshua Hill, Simmonsville. Residential plumbing, drain cleaning, water heater service for Johnston homes. Call us today.",
-    keywords: ["plumber Johnston RI", "Johnston Rhode Island plumbing", "Atwood Avenue plumber Johnston", "residential plumber Johnston RI", "water heater Johnston Rhode Island"],
-    heroTitle: "Plumbing Services in Johnston, RI",
-    heroSubtitle: "Serving Johnston homeowners along Atwood Avenue, Joshua Hill, and Simmonsville with trusted residential plumbing since 2005.",
-    intro: [
-      "Johnston is a growing suburban town directly west of Providence, offering a quiet residential character with convenient access to the city along the Route 6 (Atwood Avenue) corridor. The town encompasses a wide variety of neighborhoods — from the older residential streets around Simmonsville and Thornton to the newer subdivisions of Joshua Hill and the commercial corridor along Atwood Avenue — and its population of proud homeowners has made Johnston a steady and growing part of Kwik Plumbing's service area.",
-      "Johnston's housing stock reflects the town's development history, from older farmhouses and early 20th century village homes on the town's oldest streets to the post-war ranch and cape housing built through the 1950s and 1960s to the colonial-style subdivisions of the 1980s, 1990s, and early 2000s. This span of construction eras means Johnston plumbers encounter everything from century-old farmhouse plumbing to the modern PEX and PVC systems in newer construction homes.",
-      "Johnston's Route 6 commercial corridor — the Atwood Avenue strip running from the Providence line through the town center — generates commercial plumbing demand alongside the town's substantial residential market. Restaurants, auto service businesses, and the various commercial operations along Route 6 require commercial-grade plumbing service that Kwik Plumbing provides alongside our residential work."
-    ],
-    housingContext: [
-      "Johnston's older residential areas — the Simmonsville neighborhood, the streets around the town center, and the older sections of Thornton — contain housing from the 1920s through the 1950s that shares the galvanized pipe and cast iron drain characteristics of Providence's inner-ring neighborhoods. These homes, while smaller and more modest than their Providence urban counterparts, have the same age-related plumbing maintenance needs. Many Johnston homeowners on these older streets are now making the investment to upgrade their original plumbing before failure forces costly repairs.",
-      "The Joshua Hill neighborhood and other Johnston subdivisions developed in the 1980s and 1990s represent the town's most substantial residential growth period. These colonial-style homes were built with copper supply pipes and PVC drain systems that have generally held up well but are now entering the age range where water heater replacement, occasional fixture failures, and minor system maintenance become regular needs. Many Joshua Hill homes are also on private wells and septic systems rather than municipal water and sewer, which creates a different set of plumbing service requirements.",
-      "Johnston's significant population of private well and septic system homes sets it apart from Providence's fully municipal-service neighborhoods. Well pressure tank service, water softener installation, and septic-compatible drain products are part of the service toolkit that our Johnston team brings to every call. We're familiar with the well and septic infrastructure common in Johnston's more rural residential areas."
-    ],
-    commonIssues: [
-      {
-        title: "Well Pressure Tank Failure",
-        description: "Johnston homes on private wells depend on pressure tanks to maintain consistent water pressure from the pump throughout the home. When a pressure tank fails — typically when the bladder ruptures — the well pump cycles on and off rapidly, causing pressure fluctuations and accelerating pump wear. Kwik Plumbing replaces well pressure tanks throughout Johnston and addresses the related pressure switch and pump issues that failed tanks sometimes cause."
-      },
-      {
-        title: "Older Simmonsville-Area Galvanized Pipes",
-        description: "Johnston's older residential areas near Simmonsville and Thornton have a stock of early-to-mid 20th century homes whose galvanized supply pipes are at or past end of life. The same repiping solutions we apply throughout Providence apply here — replacement with modern copper or PEX restores pressure and eliminates rust contamination."
-      },
-      {
-        title: "Water Heater Aging in Post-War Homes",
-        description: "Johnston's large stock of 1950s–1990s homes generates steady water heater replacement demand as these systems reach end of life. Kwik Plumbing provides water heater assessment and same-day replacement throughout Johnston, with both standard tank and high-efficiency tankless options."
-      },
-      {
-        title: "Drain Field Plumbing for Septic Homes",
-        description: "Johnston homes on septic systems require specific care in drain product usage and periodic inspection of the interior plumbing connections to the septic system. Drain issues in septic homes can indicate problems with the septic system itself, not just the interior plumbing. Kwik Plumbing can assess the plumbing side of septic system issues and coordinate with septic specialists as needed."
-      }
-    ],
-    servicesSection: [
-      "Kwik Plumbing provides comprehensive residential plumbing services throughout Johnston, covering the town's full range of housing types from older village homes to newer subdivision construction. Our Johnston services include plumbing response, routine repairs and maintenance, well system plumbing, water heater service, drain cleaning, and renovation plumbing for homeowners updating their Johnston homes.",
-      "Johnston's mix of municipal and private-well homes means our team must be equally comfortable with both water supply systems. We service well pressure tanks, well pump connections, water treatment systems, and all of the plumbing that connects private well systems to home distribution plumbing. For Johnston homeowners on municipal water, our services are the same as throughout the Providence metro area.",
-      "Route 6 commercial clients rely on Kwik Plumbing for commercial drain cleaning, grease trap service, and commercial plumbing response. The Atwood Avenue corridor's restaurants and food service businesses generate consistent commercial plumbing demand that we serve with prompt, professional commercial service."
-    ],
-    localServices: [
-      {
-        title: "Well System Plumbing",
-        description: "Pressure tank replacement, well pump connections, water treatment plumbing, and all interior well system plumbing for Johnston homes on private well water supply."
-      },
-      {
-        title: "Residential Repipe",
-        description: "Complete supply pipe replacement for Johnston homes with aging galvanized systems, restoring full water pressure and eliminating rust contamination."
-      },
-      {
-        title: "Water Heater Service & Replacement",
-        description: "Water heater assessment, repair, and same-day replacement for Johnston homes, with tank and tankless options to suit every home type and budget."
-      },
-      {
-        title: "Drain Cleaning & Fast Response",
-        description: "Professional drain cleaning and plumbing response for Johnston homeowners and businesses throughout the town."
-      }
-    ],
-    whyUs: [
-      "Johnston homeowners appreciate that Kwik Plumbing is a real local company — not a national franchise — that treats every service call with personal attention. We know Johnston's neighborhoods, we understand the difference between a Simmonsville older home and a Joshua Hill newer construction, and we bring the right tools and parts for each type of job. Our 20-plus years of serving the Greater Providence area means Johnston homeowners get a plumber with genuine regional expertise.",
-      "Our flat-rate pricing means Johnston homeowners know exactly what a repair will cost before we start, and we stand behind every job with a satisfaction guarantee. When Kwik Plumbing fixes a plumbing problem in Johnston, it stays fixed — and if it doesn't, we come back at no charge."
-    ],
-    nearbyAreas: ["Providence", "North Providence", "Scituate RI", "Cranston", "Atwood"],
-    reviews: [
-      {
-        text: "Well pressure tank failed and we had no water pressure in our Johnston home. Kwik Plumbing diagnosed the problem quickly, replaced the pressure tank same day, and checked the well pump while they were there. Back to normal by early afternoon. Great response time and professional service.",
-        name: "Peter V.",
-        location: "Johnston RI"
-      },
-      {
-        text: "Used Kwik Plumbing for a complete kitchen renovation plumbing job at our Joshua Hill home. They roughed in the new sink location, installed the dishwasher connection, and ran a water line to the refrigerator. Everything done cleanly and on schedule. Great work.",
-        name: "Karen M.",
-        location: "Joshua Hill, Johnston RI"
-      },
-      {
-        text: "Frozen pipe in a Johnston home during the cold snap in January. Kwik Plumbing came in about an hour, thawed the pipe carefully, repaired the section that had split, and insulated the vulnerable run to prevent recurrence. Fast and thorough.",
-        name: "Steve B.",
-        location: "Simmonsville, Johnston RI"
-      }
-    ],
-    faqs: [
-      {
-        q: "Do you service homes on private wells in Johnston?",
-        a: "Yes. We service all of the interior plumbing components of well-supplied homes in Johnston — pressure tanks, well pump electrical and plumbing connections, pressure switches, water treatment systems including water softeners and iron filters, and all distribution plumbing throughout the home. We don't drill wells or service the well itself below grade, but all plumbing from the well connection into the home is our area of expertise."
-      },
-      {
-        q: "My Johnston home has a private septic system. Are there plumbing products I should avoid?",
-        a: "Yes. For homes on septic systems, avoid chemical drain cleaners that can kill the beneficial bacteria in your septic tank. Use septic-safe toilet paper and avoid flushing anything other than toilet paper. Garbage disposals are generally not recommended with septic systems as food waste can overwhelm the septic process. We can advise on septic-compatible products and practices when we service Johnston homes on septic."
-      },
-      {
-        q: "How often should a well pressure tank be replaced in a Johnston home?",
-        a: "A well pressure tank with a good quality bladder typically lasts 10–15 years. Signs of a failing tank include rapid pump cycling (the pump turns on every time a small amount of water is used), low water pressure, or waterlogged tank symptoms like no air cushion in the tank. Annual inspection of the pressure gauge and pump cycling is a good preventive practice. We recommend replacing tanks proactively at 12–15 years rather than waiting for failure."
-      },
-      {
-        q: "Does Kwik Plumbing do plumbing for home additions in Johnston?",
-        a: "Yes. We provide plumbing rough-in and finish work for home additions and renovations throughout Johnston — including bathroom additions, kitchen expansions, and the new supply and drain work that addition projects require. We pull all required Johnston building permits and coordinate with your general contractor to keep the project on schedule."
-      }
-    ]
-  },
-  {
-    slug: "pawtucket",
-    name: "Pawtucket",
-    fullName: "Pawtucket, RI",
     metaTitle: "Plumber in Pawtucket RI | Kwik Plumbing",
     metaDescription: "Expert plumbing in Pawtucket RI. Aging mill-era housing, galvanized pipe replacement, drain cleaning, triple-decker plumbing service. plumber in Pawtucket.",
     keywords: ["plumber Pawtucket RI", "Pawtucket plumbing", "plumber Pawtucket Rhode Island", "galvanized pipe Pawtucket RI", "triple-decker plumber Pawtucket"],
@@ -1888,7 +1783,7 @@ export const locations: Location[] = [
       },
       {
         title: "Well System Maintenance in Rural Lincoln Areas",
-        description: "Lincoln's more rural residential areas — particularly neighborhoods east of Route 146 — have homes on private wells. Well pressure tank maintenance, water treatment system service, and pump connection work are regular service calls in these parts of Lincoln that Kwik Plumbing's Johnston-side team handles with well-system expertise."
+        description: "Lincoln's more rural residential areas — particularly neighborhoods east of Route 146 — have homes on private wells. Well pressure tank maintenance, water treatment system service, and pump connection work are regular service calls in these parts of Lincoln that Kwik Plumbing handles with well-system expertise."
       },
       {
         title: "Frozen Pipe Exposure in Rural Properties",

@@ -1,7 +1,7 @@
 export const SITE = {
   name:         "Kwik Plumbing and Heating",
   nameShort:    "Kwik Plumbing",
-  tagline:      "Providence & Johnston, Rhode Island",
+  tagline:      "Providence, Rhode Island",
   phone:        "(401) 639-1047",
   phoneHref:    "tel:4016391047",
   email:        "kwikplumbingoffice@gmail.com",
@@ -68,7 +68,6 @@ export const AREAS: { name: string; slug: string }[] = [
   { name: "North Providence",    slug: "north-providence" },
   { name: "Cranston RI",         slug: "cranston" },
   { name: "East Providence",     slug: "east-providence" },
-  { name: "Johnston RI",         slug: "johnston" },
   { name: "Pawtucket RI",        slug: "pawtucket" },
   { name: "Lincoln RI",          slug: "lincoln" },
   { name: "Warwick RI",          slug: "warwick" },

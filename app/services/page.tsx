@@ -178,7 +178,7 @@ export default function ServicesPage() {
           <p className="text-brand-orange text-xs font-bold uppercase tracking-widest text-center mb-2">Service Area</p>
           <h2 className="text-2xl font-extrabold text-center mb-4">Serving Providence &amp; All of Rhode Island</h2>
           <p className="text-gray-500 text-center max-w-xl mx-auto mb-10">
-            Based in Johnston, RI — serving the entire state with licensed, professional plumbing and heating services.
+            Providence RI's trusted plumbing and heating specialists — serving Providence and all of Rhode Island.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
             {AREAS.map((area) => (
@@ -196,7 +196,7 @@ export default function ServicesPage() {
 
       <CTASection
         heading="Need Any Plumbing or Heating Service in Rhode Island?<br/>Call Kwik Plumbing Today."
-        subtext="Free estimates on all projects. Same-day appointments available for most services throughout Providence, Johnston, Cranston, Warwick & all of Rhode Island. Licensed master plumbers."
+        subtext="Free estimates on all projects. Same-day appointments available for most services throughout Providence, Cranston, Warwick & all of Rhode Island. Licensed master plumbers."
       />
     </>
   );

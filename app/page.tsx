@@ -51,7 +51,7 @@ const reviews = [
   { text: "Had a burst pipe in our Federal Hill home. Kwik Plumbing answered immediately, arrived fast, and had it fixed the same day. Professional, calm, and fairly priced. Incredible service — my go-to plumber in Providence.", name: "Maria C.", location: "Federal Hill, Providence RI" },
   { text: "Kwik installed a Navien tankless water heater in our East Side Victorian. They knew exactly how to work with the older plumbing, handled all the venting and gas upgrades, and the whole job was done in a day. Couldn't be happier.", name: "James T.", location: "East Side, Providence RI" },
   { text: "Called Kwik for a boiler that stopped working mid-January. They came out same day, diagnosed the issue, and had us with heat again the same afternoon. Real professionals — licensed, clean, and honest. Worth every penny.", name: "Sandra L.", location: "Cranston, RI" },
-  { text: "Complete bathroom remodel plumbing done by Kwik — showed up every day on schedule, coordinated perfectly with my contractor, and passed inspection first try. The 1-year warranty gave me real peace of mind.", name: "Robert M.", location: "Johnston, RI" },
+  { text: "Complete bathroom remodel plumbing done by Kwik — showed up every day on schedule, coordinated perfectly with my contractor, and passed inspection first try. The 1-year warranty gave me real peace of mind.", name: "Robert M.", location: "Mount Pleasant, Providence RI" },
   { text: "Our restaurant had a clogged drain on a Friday before dinner service. Kwik was there in under an hour, ran a CCTV survey, and cleared a grease blockage so we could open on time. They've been our commercial plumber ever since.", name: "Tony B.", location: "Downtown Providence RI" },
   { text: "Used Kwik three times now — a gas line inspection, a water heater replacement, and a bathroom rough-in. Always honest pricing, always clean work, always on time. The best plumber in Rhode Island, full stop.", name: "Diane H.", location: "Warwick, RI" },
 ];
@@ -181,7 +181,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto">
           <p className="text-brand-orange text-xs font-bold uppercase tracking-widest text-center mb-2">Why Kwik Plumbing</p>
           <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-3">Rhode Island Trusts Kwik Plumbing &amp; Heating — Here&apos;s Why</h2>
-          <p className="text-white/80 text-center max-w-xl mx-auto mb-12">For {SITE.yearsServing} years, homeowners and businesses across Providence, Johnston, Cranston, Warwick and all of Rhode Island have trusted Kwik Plumbing for fast response, master-level craftsmanship, and honest pricing.</p>
+          <p className="text-white/80 text-center max-w-xl mx-auto mb-12">For {SITE.yearsServing} years, homeowners and businesses across Providence, Cranston, Warwick and all of Rhode Island have trusted Kwik Plumbing for fast response, master-level craftsmanship, and honest pricing.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {whys.map((w) => (
               <div key={w.title} className="bg-white/8 border border-white/15 rounded-xl p-7">
@@ -201,7 +201,7 @@ export default function HomePage() {
             <p className="text-brand-orange text-xs font-bold uppercase tracking-widest mb-2">About Kwik Plumbing and Heating</p>
             <h2 className="text-3xl font-extrabold text-brand-dark mb-4">Rhode Island&apos;s #1 Trusted Plumbing &amp; Heating Company</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Kwik Plumbing and Heating Inc. is a family-owned plumbing and heating company with three generations of expertise behind every job. Based at 1149 Hartford Avenue in Johnston, RI, we&apos;ve been serving Providence, Cranston, Warwick, East Providence and all of Rhode Island for over {SITE.yearsServing} years — completing more than {SITE.jobsCount} jobs with a 100% satisfaction promise on every one.
+              Kwik Plumbing and Heating Inc. is a family-owned plumbing and heating company with three generations of expertise behind every job. We&apos;ve been serving Providence, Cranston, Warwick, East Providence and all of Rhode Island for over {SITE.yearsServing} years — completing more than {SITE.jobsCount} jobs with a 100% satisfaction promise on every one.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
               We are authorized Navien specialists, licensed master plumbers, and gas-safe certified technicians. Whether it&apos;s a burst pipe at 2 AM in Federal Hill, a boiler conversion in Cranston, or a complete bathroom remodel in Warwick — our team brings the same professionalism, quality parts, and 1-year workmanship warranty to every single job.
@@ -222,7 +222,7 @@ export default function HomePage() {
                 "💵 Free estimates on all projects",
                 "🔥 Navien certified specialist",
                 "🛡️ 1-year warranty on most work",
-                `📍 Based in Johnston, RI — serving all of RI`,
+                `📍 Proudly serving Providence, RI`,
                 "✅ Licensed master plumbers & gas safe certified",
               ].map((b) => (
                 <li key={b} className="border-b border-white/10 pb-3 last:border-0">{b}</li>
@@ -310,7 +310,7 @@ export default function HomePage() {
 
       <CTASection
         heading="Rhode Island&apos;s #1 Trusted Plumbing &amp; Heating Company"
-        subtext="Call Kwik Plumbing and Heating Inc. now or request a free estimate online. Serving Providence, Johnston, Cranston, Warwick & all of Rhode Island."
+        subtext="Call Kwik Plumbing and Heating Inc. now for a free estimate. Serving Providence, Cranston, Warwick & all of Rhode Island."
       />
     </>
   );

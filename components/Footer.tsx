@@ -16,7 +16,7 @@ export default function Footer() {
             </div>
           </Link>
           <p className="text-sm leading-relaxed">
-            Rhode Island&apos;s trusted plumbing &amp; heating company. Licensed master plumbers serving Providence, Johnston, Cranston, Warwick &amp; all of RI for {SITE.yearsServing} years.
+            Providence RI&apos;s trusted plumbing &amp; heating company. Licensed master plumbers serving Providence, Cranston, Warwick &amp; all of Rhode Island for {SITE.yearsServing} years.
           </p>
           <div className="flex flex-wrap gap-2 mt-4">
             {["Licensed Master Plumbers", "Navien Specialist", "Gas Safe Certified"].map((b) => (
@@ -62,7 +62,7 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             {[
               ["Providence RI",     "/locations/federal-hill"],
-              ["Johnston RI",       "/locations/johnston"],
+              ["Federal Hill, Providence", "/locations/federal-hill"],
               ["Cranston RI",       "/locations/cranston"],
               ["Warwick RI",        "/locations/warwick"],
               ["East Providence",   "/locations/east-providence"],
