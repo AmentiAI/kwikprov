@@ -4,6 +4,7 @@ import "./globals.css";
 import Topbar from "@/components/Topbar";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import CallWidget from "@/components/CallWidget";
 import { SITE } from "@/lib/constants";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist-sans" });
@@ -117,6 +118,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <CallWidget />
       </body>
     </html>
   );

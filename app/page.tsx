@@ -106,10 +106,10 @@ export default function HomePage() {
               alt="Kwik Plumbing and Heating"
               width={80}
               height={80}
-              className="rounded-full border-4 border-brand-red shadow-xl"
+              className="rounded-full border-4 border-brand-orange shadow-xl"
               priority
             />
-            <span className="bg-brand-red text-white text-xs font-black uppercase tracking-widest px-4 py-2 rounded-full shadow-lg">
+            <span className="bg-brand-orange text-white text-xs font-black uppercase tracking-widest px-4 py-2 rounded-full shadow-lg">
               ⭐ Rhode Island&apos;s #1 Rated Plumber
             </span>
           </div>
@@ -123,7 +123,7 @@ export default function HomePage() {
           <div className="flex flex-wrap gap-4 justify-center">
             <a
               href={SITE.phoneHref}
-              className="px-10 py-5 bg-brand-red text-white rounded-full font-black text-xl hover:-translate-y-1 hover:shadow-2xl transition-all shadow-lg"
+              className="px-10 py-5 bg-brand-orange text-white rounded-full font-black text-xl hover:-translate-y-1 hover:shadow-2xl transition-all shadow-lg hover:bg-orange-600"
             >
               📞 {SITE.phone}
             </a>
