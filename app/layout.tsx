@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     template: "%s | Kwik Plumbing and Heating RI",
   },
   description:
-    "Kwik Plumbing and Heating Inc. — Providence RI's #1 trusted plumbing & heating service provider. Drain cleaning, boiler service, water heaters & more. Serving Providence, Cranston, Warwick & all of Rhode Island. Call (401) 639-1047.",
+    "Kwik Plumbing and Heating Inc. — Providence RI's trusted plumbing & heating company. Drain cleaning, boiler service, water heaters, gas lines & more. 15+ years serving Providence, Rhode Island. Call (401) 639-1047.",
   keywords: [
     "plumber Providence RI",
     "Kwik Plumbing Rhode Island",

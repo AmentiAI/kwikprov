@@ -9,7 +9,7 @@ import ServiceCard from "@/components/ServiceCard";
 export const metadata: Metadata = {
   title: "Drain Cleaning Providence RI | Clog Removal & Hydro-Jetting",
   description:
-    "Professional drain cleaning in Providence, Rhode Island. Clogged drains, slow drains, hydro-jetting, main sewer line clearing, and camera inspection. Licensed master plumbers serving Federal Hill, East Side, Smith Hill & all of Providence RI. Call Kwik Plumbing (401) 639-1047.",
+    "Professional drain cleaning in Providence, Rhode Island. Clogged drains, slow drains, hydro-jetting, and main sewer line clearing. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
     "drain cleaning Providence RI",
     "clogged drain Providence Rhode Island",

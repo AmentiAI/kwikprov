@@ -8,7 +8,7 @@ import FAQList from "@/components/FAQList";
 export const metadata: Metadata = {
   title: "Gas Line Services Providence RI | Install, Repair & Safety",
   description:
-    "Licensed gas line installation, repair, and safety services in Providence, Rhode Island. New gas lines, appliance hookups, generator lines, fire pit lines, fireplace gas, and gas leak detection. Serving Federal Hill, East Side, College Hill & all of Providence RI. Call Kwik Plumbing (401) 639-1047.",
+    "Licensed gas line installation, repair, and safety services in Providence, Rhode Island. New gas lines, appliance hookups, generator lines, fire pit lines, and gas leak detection. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
     "gas line installation Providence RI",
     "gas pipe repair Providence Rhode Island",

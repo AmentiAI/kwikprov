@@ -8,7 +8,7 @@ import FAQList from "@/components/FAQList";
 export const metadata: Metadata = {
   title: "Boiler Services Providence RI | Install, Repair & Maintenance",
   description:
-    "Expert boiler installation, repair, and maintenance in Providence, Rhode Island. Steam boilers, oil boilers, high-efficiency upgrades, Navien specialist. Serving Federal Hill, East Side, Smith Hill, College Hill & all of Providence RI. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
+    "Expert boiler installation, repair, and maintenance in Providence, Rhode Island. Gas, oil, and steam boilers. Authorized Navien specialist. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
     "boiler repair Providence RI",
     "boiler installation Providence Rhode Island",

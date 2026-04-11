@@ -8,7 +8,7 @@ import FAQList from "@/components/FAQList";
 export const metadata: Metadata = {
   title: "Leak Detection Providence RI | Hidden Leaks Found Fast",
   description:
-    "Advanced leak detection in Providence, Rhode Island using electronic sensors, thermal imaging, and moisture mapping. Hidden leaks, slab leaks, pipe leaks, well pump service, and water filtration. Serving Federal Hill, East Side, College Hill, Fox Point & all of Providence RI. Call Kwik Plumbing (401) 639-1047.",
+    "Advanced leak detection in Providence, Rhode Island. Hidden leaks, slab leaks, pipe leaks, well pump service, and water filtration. Non-invasive electronic and thermal imaging technology. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
     "leak detection Providence RI",
     "hidden leak detection Providence Rhode Island",

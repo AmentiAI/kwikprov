@@ -8,7 +8,7 @@ import FAQList from "@/components/FAQList";
 export const metadata: Metadata = {
   title: "Pipe Repair & Replacement Providence RI | Repiping Specialists",
   description:
-    "Expert pipe repair and replacement in Providence, Rhode Island. Leaking pipes, burst pipes, whole-home repiping, lead pipe replacement, and frozen pipe repair. Licensed master plumbers specializing in Providence's historic homes. Serving Federal Hill, East Side, College Hill, Smith Hill & all of Providence RI. Call Kwik Plumbing (401) 639-1047.",
+    "Expert pipe repair and replacement in Providence, Rhode Island. Leaking pipes, burst pipes, whole-home repiping, lead pipe replacement, and frozen pipe repair. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
     "pipe repair Providence RI",
     "pipe replacement Providence Rhode Island",
