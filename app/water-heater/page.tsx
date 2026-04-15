@@ -65,6 +65,7 @@ export default function WaterHeaterPage() {
         breadcrumb="Water Heater Services Providence RI"
         title="Water Heater Repair &amp; Installation<br/>Providence, Rhode Island"
         subtitle="No hot water? Kwik Plumbing provides same-day water heater repair and replacement for Providence RI homeowners. Tank and tankless systems — all brands serviced and installed."
+        image="https://scvbk65ceiknasne.public.blob.vercel-storage.com/services/1760615105775-91q9bsdt1i.jpeg"
       />
 
       <section className="py-16 px-4">

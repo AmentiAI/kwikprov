@@ -123,6 +123,7 @@ export default function BathroomRemodelingPage() {
         breadcrumb="Bathroom Remodeling Providence RI"
         title="Bathroom Remodeling<br/>Providence, Rhode Island"
         subtitle="From complete bathroom fittings to wet room installations and fixture upgrades — Kwik Plumbing's licensed master plumbers handle all the plumbing for your Rhode Island bathroom renovation, from rough-in to finish."
+        image="https://scvbk65ceiknasne.public.blob.vercel-storage.com/services/1760614911411-654b3l8wwxo.jpg"
       />
 
       <section className="py-16 px-4">

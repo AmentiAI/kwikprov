@@ -83,30 +83,18 @@ export default function HomePage() {
   return (
     <>
       {/* HERO */}
-      <section className="bg-gradient-to-br from-brand-dark via-[#0d3fa8] to-brand-blue text-white py-24 px-4 text-center relative overflow-hidden">
-        {/* Logo watermark behind text */}
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none">
-          <Image
-            src="/kwiklogo.avif"
-            alt=""
-            width={520}
-            height={520}
-            className="opacity-[0.07] w-[380px] md:w-[520px]"
-            priority
-            aria-hidden="true"
-          />
-        </div>
-        {/* Red accent stripe at top */}
-        <div className="absolute top-0 left-0 right-0 h-1.5 bg-brand-red" />
+      <section className="bg-gray-950 text-white py-20 px-4 text-center relative overflow-hidden">
+        {/* Orange accent stripe at top */}
+        <div className="absolute top-0 left-0 right-0 h-1.5 bg-brand-orange" />
         <div className="relative z-10 max-w-5xl mx-auto">
-          {/* Logo + badge row */}
-          <div className="flex items-center justify-center gap-4 mb-6">
+          {/* Logo — prominent, centered */}
+          <div className="flex flex-col items-center mb-8">
             <Image
               src="/kwiklogo.avif"
               alt="Kwik Plumbing and Heating"
-              width={80}
-              height={80}
-              className="rounded-full border-4 border-brand-orange shadow-xl"
+              width={160}
+              height={160}
+              className="rounded-full border-4 border-brand-orange shadow-2xl shadow-orange-900/40 mb-5"
               priority
             />
             <span className="bg-brand-orange text-white text-xs font-black uppercase tracking-widest px-4 py-2 rounded-full shadow-lg">
@@ -117,7 +105,7 @@ export default function HomePage() {
             Providence RI&apos;s Most Trusted<br />
             <span className="text-brand-orange">Plumbing &amp; Heating</span>
           </h1>
-          <p className="text-xl md:text-2xl opacity-90 max-w-2xl mx-auto mb-10">
+          <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto mb-10">
             Licensed master plumbers. Boilers, gas lines, drain cleaning, water heaters &amp; more — serving all of Rhode Island for {SITE.yearsServing} years.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
@@ -129,17 +117,17 @@ export default function HomePage() {
             </a>
             <Link
               href="/contact"
-              className="px-10 py-5 bg-white/15 text-white border-2 border-white/60 rounded-full font-bold text-xl backdrop-blur-sm hover:-translate-y-1 hover:shadow-2xl transition-all"
+              className="px-10 py-5 bg-white/10 text-white border-2 border-white/40 rounded-full font-bold text-xl hover:-translate-y-1 hover:shadow-2xl transition-all hover:bg-white/20"
             >
               View Contact Info
             </Link>
           </div>
           {/* Stats */}
-          <div className="flex flex-wrap justify-center gap-10 mt-16 pt-10 border-t border-white/20">
+          <div className="flex flex-wrap justify-center gap-10 mt-16 pt-10 border-t border-white/10">
             {stats.map((s) => (
               <div key={s.label} className="text-center">
                 <div className="text-4xl font-black text-brand-orange">{s.num}</div>
-                <div className="text-sm uppercase tracking-wider opacity-80 mt-1">{s.label}</div>
+                <div className="text-sm uppercase tracking-wider text-gray-400 mt-1">{s.label}</div>
               </div>
             ))}
           </div>

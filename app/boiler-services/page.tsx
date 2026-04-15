@@ -155,6 +155,7 @@ export default function BoilerServicesPage() {
         breadcrumb="Boiler Services Providence RI"
         title="Boiler Services<br/>Providence, Rhode Island"
         subtitle="Providence RI's boiler specialists — installation, repair, and maintenance for gas, oil, and steam boilers. Authorized Navien specialists serving Providence, Cranston, Warwick, and all of Rhode Island."
+        image="https://scvbk65ceiknasne.public.blob.vercel-storage.com/services/1760614848743-hpcg79gwv8c.jpg"
       />
 
       <section className="py-16 px-4">

@@ -30,7 +30,7 @@ export default function ContactPage() {
       />
 
       {/* BIG CALL CTA */}
-      <section className="bg-brand-blue text-white py-16 px-4 text-center">
+      <section className="bg-brand-dark text-white py-16 px-4 text-center">
         <div className="max-w-2xl mx-auto">
           <p className="text-brand-orange font-bold text-xs uppercase tracking-widest mb-3">Call Us Directly</p>
           <h2 className="text-3xl md:text-4xl font-black mb-4">Ready to Talk to a Plumber?</h2>
