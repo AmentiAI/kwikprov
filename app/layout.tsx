@@ -35,6 +35,21 @@ export const metadata: Metadata = {
     title: "Kwik Plumbing and Heating | Rhode Island's #1 Trusted Plumber",
     description:
       "15+ years serving Providence & all of Rhode Island. Licensed master plumbers. Call (401) 639-1047.",
+    images: [
+      {
+        url: "/kwiklogo.png",
+        width: 512,
+        height: 512,
+        alt: "Kwik Plumbing and Heating",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: "Kwik Plumbing and Heating | Providence RI Plumber",
+    description:
+      "Licensed master plumbers serving Providence & all of Rhode Island. Call (401) 639-1047.",
+    images: ["/kwiklogo.png"],
   },
   robots: { index: true, follow: true },
   icons: {
