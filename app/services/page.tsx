@@ -3,6 +3,7 @@ import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import ServiceCard from "@/components/ServiceCard";
 import CTASection from "@/components/CTASection";
+import RelatedServices from "@/components/RelatedServices";
 import { AREAS } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -193,6 +194,8 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+
+      <RelatedServices currentHref="/services" />
 
       <CTASection
         heading="Need Any Plumbing or Heating Service in Rhode Island?<br/>Call Kwik Plumbing Today."

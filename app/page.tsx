@@ -3,6 +3,7 @@ import Image from "next/image";
 import ServiceCard from "@/components/ServiceCard";
 import ReviewCard from "@/components/ReviewCard";
 import CTASection from "@/components/CTASection";
+import RelatedServices from "@/components/RelatedServices";
 import FAQList from "@/components/FAQList";
 import { SITE, AREAS } from "@/lib/constants";
 
@@ -305,6 +306,8 @@ export default function HomePage() {
           <FAQList items={faqs} />
         </div>
       </section>
+
+      <RelatedServices currentHref="/" heading="Explore Kwik Plumbing Pages" />
 
       <CTASection
         heading="Rhode Island&apos;s #1 Trusted Plumbing &amp; Heating Company"

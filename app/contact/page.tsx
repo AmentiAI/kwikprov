@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
+import RelatedServices from "@/components/RelatedServices";
 import { SITE, HOURS, SERVICE_LINKS } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -134,6 +135,8 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      <RelatedServices currentHref="/contact" />
     </>
   );
 }

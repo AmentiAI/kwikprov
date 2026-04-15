@@ -3,6 +3,7 @@ import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import ReviewCard from "@/components/ReviewCard";
 import CTASection from "@/components/CTASection";
+import RelatedServices from "@/components/RelatedServices";
 import { SITE } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -139,6 +140,8 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <RelatedServices currentHref="/about" />
 
       <CTASection
         heading="Providence&apos;s Plumbing Company — Ready to Help."

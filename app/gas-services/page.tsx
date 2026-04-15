@@ -3,6 +3,7 @@ import PageHeader from "@/components/PageHeader";
 import AsideCard from "@/components/AsideCard";
 import ReviewCard from "@/components/ReviewCard";
 import CTASection from "@/components/CTASection";
+import RelatedServices from "@/components/RelatedServices";
 import FAQList from "@/components/FAQList";
 
 export const metadata: Metadata = {
@@ -222,6 +223,8 @@ export default function GasServicesPage() {
           <FAQList items={faqs} />
         </div>
       </section>
+
+      <RelatedServices currentHref="/gas-services" />
 
       <CTASection
         heading="Need Gas Line Work in Providence RI?<br/>Call Kwik Plumbing."

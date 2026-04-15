@@ -6,6 +6,7 @@ import PageHeader from "@/components/PageHeader";
 import AsideCard from "@/components/AsideCard";
 import ReviewCard from "@/components/ReviewCard";
 import CTASection from "@/components/CTASection";
+import RelatedServices from "@/components/RelatedServices";
 import FAQList from "@/components/FAQList";
 
 interface Props {
@@ -173,6 +174,8 @@ export default async function LocationPage({ params }: Props) {
           <FAQList items={loc.faqs} />
         </div>
       </section>
+
+      <RelatedServices />
 
       <CTASection
         heading={`Ready to Fix Your Plumbing in ${loc.name}?<br/>Kwik Plumbing Is Standing By.`}

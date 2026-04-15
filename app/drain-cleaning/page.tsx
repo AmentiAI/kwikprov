@@ -3,6 +3,7 @@ import PageHeader from "@/components/PageHeader";
 import AsideCard from "@/components/AsideCard";
 import ReviewCard from "@/components/ReviewCard";
 import CTASection from "@/components/CTASection";
+import RelatedServices from "@/components/RelatedServices";
 import FAQList from "@/components/FAQList";
 import ServiceCard from "@/components/ServiceCard";
 
@@ -175,6 +176,8 @@ export default function DrainCleaningPage() {
           <FAQList items={faqs} />
         </div>
       </section>
+
+      <RelatedServices currentHref="/drain-cleaning" />
 
       <CTASection
         heading="Slow or Clogged Drains in Providence?<br/>We&apos;ll Clear Them Today."
