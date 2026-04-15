@@ -225,7 +225,7 @@ export default function GasServicesPage() {
 
       <CTASection
         heading="Need Gas Line Work in Providence RI?<br/>Call Kwik Plumbing."
-        subtext="Licensed master plumbers handling all gas line installation, repair, and safety work throughout Providence, Cranston, Warwick & all of Rhode Island. All work permitted and inspected."
+        subtext="Licensed master plumbers handling all gas line installation, repair, and safety work throughout Providence & all of Rhode Island. All work permitted and inspected."
       />
     </>
   );

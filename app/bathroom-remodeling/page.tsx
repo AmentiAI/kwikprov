@@ -220,7 +220,7 @@ export default function BathroomRemodelingPage() {
 
       <CTASection
         heading="Planning a Bathroom Remodel in Providence RI?<br/>Start with Kwik Plumbing."
-        subtext="Licensed master plumbers for bathroom renovations throughout Providence, Cranston, Warwick & all of Rhode Island. All permits handled. Free written estimates."
+        subtext="Licensed master plumbers for bathroom renovations throughout Providence & all of Rhode Island. All permits handled. Free written estimates."
       />
     </>
   );

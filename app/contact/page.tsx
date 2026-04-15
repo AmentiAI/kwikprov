@@ -17,7 +17,7 @@ const info = [
   { icon: "🕐", label: "Mon – Fri", value: HOURS.weekdays },
   { icon: "🕐", label: "Saturday", value: HOURS.saturday },
   { icon: "🕐", label: "Sunday", value: HOURS.sunday },
-  { icon: "🗺️", label: "Service Area", value: "Providence, Cranston, Warwick, East Providence, Pawtucket, North Providence & all of RI" },
+  { icon: "🗺️", label: "Service Area", value: "Providence & all of RI" },
 ];
 
 export default function ContactPage() {

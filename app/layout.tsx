@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: "Kwik Plumbing and Heating Inc.",
     title: "Kwik Plumbing and Heating | Rhode Island's #1 Trusted Plumber",
     description:
-      "15+ years serving Providence, Cranston, Warwick & all of Rhode Island. Licensed master plumbers. Call (401) 639-1047.",
+      "15+ years serving Providence & all of Rhode Island. Licensed master plumbers. Call (401) 639-1047.",
   },
   robots: { index: true, follow: true },
   icons: {
@@ -54,7 +54,7 @@ const localBusinessSchema = {
   priceRange: "$$",
   slogan: SITE.slogan,
   description:
-    "Providence RI's #1 trusted plumbing and heating service provider. Licensed master plumbers serving Providence, Cranston, Warwick, East Providence and all of Rhode Island for 15+ years.",
+    "Providence RI's #1 trusted plumbing and heating service provider. Licensed master plumbers serving Providence and all of Rhode Island for 15+ years.",
   address: {
     "@type": "PostalAddress",
     streetAddress: SITE.address,
@@ -80,9 +80,6 @@ const localBusinessSchema = {
   ],
   areaServed: [
     { "@type": "City", name: "Providence", addressRegion: "RI" },
-    { "@type": "City", name: "Cranston", addressRegion: "RI" },
-    { "@type": "City", name: "Warwick", addressRegion: "RI" },
-    { "@type": "City", name: "East Providence", addressRegion: "RI" },
     { "@type": "State", name: "Rhode Island" },
   ],
   hasOfferCatalog: {

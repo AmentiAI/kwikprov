@@ -154,7 +154,7 @@ export default function BoilerServicesPage() {
       <PageHeader
         breadcrumb="Boiler Services Providence RI"
         title="Boiler Services<br/>Providence, Rhode Island"
-        subtitle="Providence RI's boiler specialists — installation, repair, and maintenance for gas, oil, and steam boilers. Authorized Navien specialists serving Providence, Cranston, Warwick, and all of Rhode Island."
+        subtitle="Providence RI's boiler specialists — installation, repair, and maintenance for gas, oil, and steam boilers. Authorized Navien specialists serving Providence and all of Rhode Island."
         image="https://scvbk65ceiknasne.public.blob.vercel-storage.com/services/1760614848743-hpcg79gwv8c.jpg"
       />
 
@@ -264,7 +264,7 @@ export default function BoilerServicesPage() {
 
       <CTASection
         heading="Need Boiler Service in Providence RI?<br/>Call Kwik Plumbing Today."
-        subtext="Authorized Navien specialist serving Providence, Cranston, Warwick & all of Rhode Island. Licensed master plumbers, all permits handled, free written estimates."
+        subtext="Authorized Navien specialist serving Providence & all of Rhode Island. Licensed master plumbers, all permits handled, free written estimates."
       />
     </>
   );

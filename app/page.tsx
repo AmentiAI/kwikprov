@@ -308,7 +308,7 @@ export default function HomePage() {
 
       <CTASection
         heading="Rhode Island&apos;s #1 Trusted Plumbing &amp; Heating Company"
-        subtext="Call Kwik Plumbing and Heating Inc. now for a free estimate. Serving Providence, Cranston, Warwick & all of Rhode Island."
+        subtext="Call Kwik Plumbing and Heating Inc. now for a free estimate. Serving Providence & all of Rhode Island."
       />
     </>
   );

@@ -244,7 +244,7 @@ export default function LeakDetectionPage() {
 
       <CTASection
         heading="Suspect a Hidden Leak in Your Providence Home?<br/>Call Kwik Plumbing."
-        subtext="Advanced non-invasive leak detection throughout Providence, Cranston, Warwick & all of Rhode Island. We find the leak — then fix it right the first time."
+        subtext="Advanced non-invasive leak detection throughout Providence & all of Rhode Island. We find the leak — then fix it right the first time."
       />
     </>
   );

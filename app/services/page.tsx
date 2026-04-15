@@ -196,7 +196,7 @@ export default function ServicesPage() {
 
       <CTASection
         heading="Need Any Plumbing or Heating Service in Rhode Island?<br/>Call Kwik Plumbing Today."
-        subtext="Free estimates on all projects. Same-day appointments available for most services throughout Providence, Cranston, Warwick & all of Rhode Island. Licensed master plumbers."
+        subtext="Free estimates on all projects. Same-day appointments available for most services throughout Providence & all of Rhode Island. Licensed master plumbers."
       />
     </>
   );
