@@ -84,8 +84,18 @@ export default function HomePage() {
     <>
       {/* HERO */}
       <section className="bg-gray-950 text-white py-20 px-4 text-center relative overflow-hidden">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover opacity-40"
+        >
+          <source src="/bathroom.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-b from-gray-950/70 via-gray-950/60 to-gray-950/80" />
         {/* Orange accent stripe at top */}
-        <div className="absolute top-0 left-0 right-0 h-1.5 bg-brand-orange" />
+        <div className="absolute top-0 left-0 right-0 h-1.5 bg-brand-orange z-10" />
         <div className="relative z-10 max-w-5xl mx-auto">
           {/* Logo — prominent, centered */}
           <div className="flex flex-col items-center mb-8">
