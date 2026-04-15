@@ -94,7 +94,7 @@ export default function HomePage() {
               alt="Kwik Plumbing and Heating"
               width={160}
               height={160}
-              className="rounded-full border-4 border-brand-orange shadow-2xl shadow-orange-900/40 mb-5"
+              className="rounded-full shadow-2xl shadow-black/40 mb-5"
               priority
             />
             <span className="bg-brand-orange text-white text-xs font-black uppercase tracking-widest px-4 py-2 rounded-full shadow-lg">
