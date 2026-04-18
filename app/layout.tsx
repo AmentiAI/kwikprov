@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Geist } from "next/font/google";
 import "./globals.css";
 import Topbar from "@/components/Topbar";
@@ -6,6 +7,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CallWidget from "@/components/CallWidget";
 import { SITE } from "@/lib/constants";
+
+const GA_MEASUREMENT_ID = "G-BL2W35197M";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist-sans" });
 
@@ -126,6 +129,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="flex flex-col min-h-screen">
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
         <Topbar />
         <Header />
         <main className="flex-1">{children}</main>
