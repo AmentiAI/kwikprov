@@ -6,9 +6,16 @@ import CTASection from "@/components/CTASection";
 import RelatedServices from "@/components/RelatedServices";
 import FAQList from "@/components/FAQList";
 import ServiceCard from "@/components/ServiceCard";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema, faqPageSchema, serviceSchema } from "@/lib/schema";
+import { SITE } from "@/lib/constants";
+
+const SLUG = "/drain-cleaning";
+const SERVICE_NAME = "Drain Cleaning & Hydro-Jetting";
+const SERVICE_DESCRIPTION = "Professional drain cleaning, hydro-jetting up to 4,000 PSI, CCTV camera inspection, and main sewer line clearing in Providence, Rhode Island.";
 
 export const metadata: Metadata = {
-  title: "Drain Cleaning Providence RI | Clog Removal & Hydro-Jetting",
+  title: "Drain Cleaning & Hydro-Jetting | Providence RI",
   description:
     "Professional drain cleaning in Providence, Rhode Island. Clogged drains, slow drains, hydro-jetting, and main sewer line clearing. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
@@ -23,6 +30,7 @@ export const metadata: Metadata = {
     "plumber drain cleaning Providence Rhode Island",
     "camera drain inspection Providence RI",
   ],
+  alternates: { canonical: "/drain-cleaning" },
 };
 
 const signs = [
@@ -69,6 +77,13 @@ const reviews = [
 export default function DrainCleaningPage() {
   return (
     <>
+      <JsonLd data={breadcrumbSchema([
+        { name: "Home", url: `${SITE.url}/` },
+        { name: "Services", url: `${SITE.url}/services` },
+        { name: "Drain Cleaning", url: `${SITE.url}${SLUG}` },
+      ])} />
+      <JsonLd data={serviceSchema({ slug: SLUG, name: SERVICE_NAME, description: SERVICE_DESCRIPTION })} />
+      <JsonLd data={faqPageSchema(SLUG, faqs)} />
       <PageHeader
         breadcrumb="Drain Cleaning Providence RI"
         title="Drain Cleaning &amp; Clog Removal<br/>Providence, Rhode Island"

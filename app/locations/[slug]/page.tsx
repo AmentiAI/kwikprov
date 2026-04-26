@@ -1,13 +1,16 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { SITE } from "@/lib/constants";
 import { locations } from "@/lib/locations";
+import { breadcrumbSchema, faqPageSchema, locationServiceSchema } from "@/lib/schema";
 import PageHeader from "@/components/PageHeader";
 import AsideCard from "@/components/AsideCard";
 import ReviewCard from "@/components/ReviewCard";
 import CTASection from "@/components/CTASection";
 import RelatedServices from "@/components/RelatedServices";
 import FAQList from "@/components/FAQList";
+import JsonLd from "@/components/JsonLd";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -25,6 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: loc.metaTitle,
     description: loc.metaDescription,
     keywords: loc.keywords.join(", "),
+    alternates: { canonical: `/locations/${slug}` },
   };
 }
 
@@ -32,6 +36,14 @@ export default async function LocationPage({ params }: Props) {
   const { slug } = await params;
   const loc = locations.find((l) => l.slug === slug);
   if (!loc) notFound();
+
+  // Up to 6 nearby/related neighborhoods drawn from the master list (excluding self).
+  const nearbySlugs = locations
+    .filter((l) => l.slug !== loc.slug)
+    .filter((l) => loc.nearbyAreas.some((n) => n.toLowerCase().includes(l.name.toLowerCase()) || l.name.toLowerCase().includes(n.toLowerCase())))
+    .slice(0, 6);
+  const fallbackNearby = locations.filter((l) => l.slug !== loc.slug).slice(0, 6);
+  const nearbyLinks = nearbySlugs.length >= 3 ? nearbySlugs : fallbackNearby;
 
   const asideBullets = [
     "🕐 Mon–Fri 7 AM–6 PM, Sat 8 AM–4 PM",
@@ -41,8 +53,27 @@ export default async function LocationPage({ params }: Props) {
     `🏅 ${SITE.rating}★ Google rating`,
   ];
 
+  const breadcrumbs = breadcrumbSchema([
+    { name: "Home", url: `${SITE.url}/` },
+    { name: "Service Areas", url: `${SITE.url}/services` },
+    { name: loc.name, url: `${SITE.url}/locations/${loc.slug}` },
+  ]);
+
+  const cityService = locationServiceSchema({
+    slug: `/locations/${loc.slug}`,
+    city: loc.name,
+    fullName: loc.fullName,
+    description: loc.metaDescription,
+  });
+
+  const faqs = faqPageSchema(`/locations/${loc.slug}`, loc.faqs);
+
   return (
     <>
+      <JsonLd data={breadcrumbs} />
+      <JsonLd data={cityService} />
+      <JsonLd data={faqs} />
+
       <PageHeader
         breadcrumb={`Locations → ${loc.name}`}
         title={loc.heroTitle}
@@ -111,6 +142,18 @@ export default async function LocationPage({ params }: Props) {
                 {SITE.phone}
               </a>.
             </p>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 my-6 not-prose">
+              {nearbyLinks.map((n) => (
+                <Link
+                  key={n.slug}
+                  href={`/locations/${n.slug}`}
+                  className="bg-white border-2 border-brand-light rounded-lg px-3 py-2 text-sm font-semibold text-brand-dark text-center hover:bg-brand-light hover:border-brand-blue transition-colors"
+                >
+                  {n.name}
+                </Link>
+              ))}
+            </div>
           </div>
 
           {/* Right: Sidebar */}
@@ -130,7 +173,7 @@ export default async function LocationPage({ params }: Props) {
                   "RI Master Plumber License #PL-04482",
                   "Fully bonded & insured",
                   "BBB Accredited A+ rating",
-                  "Serving Providence since 2005",
+                  "Serving Providence since 2009",
                   "Flat-rate upfront pricing",
                   "100% satisfaction guarantee",
                 ].map((item) => (
@@ -178,7 +221,7 @@ export default async function LocationPage({ params }: Props) {
       <RelatedServices />
 
       <CTASection
-        heading={`Ready to Fix Your Plumbing in ${loc.name}?<br/>Kwik Plumbing Is Standing By.`}
+        heading={`Ready to Fix Your Plumbing in ${loc.name}? <br/> Kwik Plumbing Is Standing By.`}
         subtext={`Call now or request a free estimate online. We serve ${loc.fullName} and surrounding areas — licensed, insured, and locally trusted.`}
       />
     </>

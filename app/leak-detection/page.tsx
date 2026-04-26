@@ -5,9 +5,16 @@ import ReviewCard from "@/components/ReviewCard";
 import CTASection from "@/components/CTASection";
 import RelatedServices from "@/components/RelatedServices";
 import FAQList from "@/components/FAQList";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema, faqPageSchema, serviceSchema } from "@/lib/schema";
+import { SITE } from "@/lib/constants";
+
+const SLUG = "/leak-detection";
+const SERVICE_NAME = "Leak Detection & Repair";
+const SERVICE_DESCRIPTION = "Acoustic, infrared, and pressure-test leak detection for hidden leaks in Providence, Rhode Island. Whole-house water filtration and well pump service.";
 
 export const metadata: Metadata = {
-  title: "Leak Detection Providence RI | Hidden Leaks Found Fast",
+  title: "Leak Detection | Providence RI",
   description:
     "Advanced leak detection in Providence, Rhode Island. Hidden leaks, slab leaks, pipe leaks, well pump service, and water filtration. Non-invasive electronic and thermal imaging technology. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
@@ -23,6 +30,7 @@ export const metadata: Metadata = {
     "water filtration system Providence RI",
     "non invasive leak detection Providence Rhode Island",
   ],
+  alternates: { canonical: "/leak-detection" },
 };
 
 const detectionServices = [
@@ -134,6 +142,13 @@ const reviews = [
 export default function LeakDetectionPage() {
   return (
     <>
+      <JsonLd data={breadcrumbSchema([
+        { name: "Home", url: `${SITE.url}/` },
+        { name: "Services", url: `${SITE.url}/services` },
+        { name: "Leak Detection", url: `${SITE.url}${SLUG}` },
+      ])} />
+      <JsonLd data={serviceSchema({ slug: SLUG, name: SERVICE_NAME, description: SERVICE_DESCRIPTION })} />
+      <JsonLd data={faqPageSchema(SLUG, faqs)} />
       <PageHeader
         breadcrumb="Leak Detection Providence RI"
         title="Leak Detection &amp; Repair<br/>Providence, Rhode Island"

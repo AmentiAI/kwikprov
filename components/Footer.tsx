@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { SITE, HOURS } from "@/lib/constants";
+import { SITE, HOURS, AREAS } from "@/lib/constants";
 
 export default function Footer() {
   return (
@@ -11,7 +11,7 @@ export default function Footer() {
           <Link href="/" className="flex items-center gap-3 mb-4">
             <Image src="/kwiklogo.avif" alt="Kwik Plumbing Logo" width={52} height={52} className="rounded-full shrink-0 border-2 border-brand-red" />
             <div>
-              <p className="text-white font-extrabold text-base leading-tight">Kwik Plumbing<br/>and Heating Inc.</p>
+              <p className="text-white font-extrabold text-base leading-tight">Kwik Plumbing <br /> and Heating Inc.</p>
               <p className="text-slate-400 text-xs mt-0.5">{SITE.slogan}</p>
             </div>
           </Link>
@@ -59,19 +59,15 @@ export default function Footer() {
         {/* Areas */}
         <div>
           <h4 className="text-white font-bold text-sm uppercase tracking-wide mb-4">Service Areas</h4>
-          <ul className="space-y-2 text-sm">
-            {[
-              ["Providence RI",     "/locations/federal-hill"],
-              ["Federal Hill, Providence", "/locations/federal-hill"],
-              ["Cranston RI",       "/locations/cranston"],
-              ["Warwick RI",        "/locations/warwick"],
-              ["East Providence",   "/locations/east-providence"],
-              ["Pawtucket RI",      "/locations/pawtucket"],
-              ["North Providence",  "/locations/north-providence"],
-              ["All Service Areas", "/services"],
-            ].map(([label, href]) => (
-              <li key={label}>
-                <Link href={href} className="hover:text-brand-orange transition-colors">{label}</Link>
+          <ul className="grid grid-cols-2 gap-x-3 gap-y-2 text-sm">
+            {AREAS.map((area) => (
+              <li key={area.slug}>
+                <Link
+                  href={`/locations/${area.slug}`}
+                  className="hover:text-brand-orange transition-colors"
+                >
+                  {area.name}
+                </Link>
               </li>
             ))}
           </ul>
@@ -100,7 +96,7 @@ export default function Footer() {
         <span>&copy; {new Date().getFullYear()} Kwik Plumbing and Heating Inc. All rights reserved. | Johnston, RI 02919</span>
         <span className="flex gap-4">
           <a href="#" className="hover:text-slate-300 transition-colors">Privacy Policy</a>
-          <Link href="/sitemap.xml" className="hover:text-slate-300 transition-colors">Sitemap</Link>
+          <a href="/sitemap.xml" className="hover:text-slate-300 transition-colors">Sitemap</a>
         </span>
       </div>
     </footer>

@@ -5,9 +5,16 @@ import ReviewCard from "@/components/ReviewCard";
 import CTASection from "@/components/CTASection";
 import RelatedServices from "@/components/RelatedServices";
 import FAQList from "@/components/FAQList";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema, faqPageSchema, serviceSchema } from "@/lib/schema";
+import { SITE } from "@/lib/constants";
+
+const SLUG = "/gas-services";
+const SERVICE_NAME = "Gas Line Installation & Safety";
+const SERVICE_DESCRIPTION = "Licensed gas line installation, repair, leak detection, generator and appliance hookups in Providence, Rhode Island. Permitted and pressure-tested.";
 
 export const metadata: Metadata = {
-  title: "Gas Line Services Providence RI | Install, Repair & Safety",
+  title: "Gas Line Services | Providence RI",
   description:
     "Licensed gas line installation, repair, and safety services in Providence, Rhode Island. New gas lines, appliance hookups, generator lines, fire pit lines, and gas leak detection. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
@@ -23,6 +30,7 @@ export const metadata: Metadata = {
     "gas line contractor Providence Rhode Island",
     "outdoor gas line installation Providence RI",
   ],
+  alternates: { canonical: "/gas-services" },
 };
 
 const gasServices = [
@@ -126,6 +134,13 @@ const reviews = [
 export default function GasServicesPage() {
   return (
     <>
+      <JsonLd data={breadcrumbSchema([
+        { name: "Home", url: `${SITE.url}/` },
+        { name: "Services", url: `${SITE.url}/services` },
+        { name: "Gas Line Services", url: `${SITE.url}${SLUG}` },
+      ])} />
+      <JsonLd data={serviceSchema({ slug: SLUG, name: SERVICE_NAME, description: SERVICE_DESCRIPTION })} />
+      <JsonLd data={faqPageSchema(SLUG, faqs)} />
       <PageHeader
         breadcrumb="Gas Line Services Providence RI"
         title="Gas Line Services<br/>Providence, Rhode Island"

@@ -6,13 +6,17 @@ interface CTASectionProps {
   subtext: string;
 }
 
+function normalizeBreaks(html: string): string {
+  return html.replace(/\s*<br\s*\/?>\s*/gi, " <br/> ");
+}
+
 export default function CTASection({ heading, subtext }: CTASectionProps) {
   return (
     <section className="bg-gradient-to-br from-brand-blue to-brand-dark text-white text-center py-20 px-4">
       <div className="max-w-3xl mx-auto">
         <h2
           className="text-3xl md:text-4xl font-black mb-4 leading-tight"
-          dangerouslySetInnerHTML={{ __html: heading }}
+          dangerouslySetInnerHTML={{ __html: normalizeBreaks(heading) }}
         />
         <p className="text-lg opacity-90 mb-6">{subtext}</p>
         <a

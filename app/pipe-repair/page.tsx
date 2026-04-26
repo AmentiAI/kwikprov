@@ -5,9 +5,16 @@ import ReviewCard from "@/components/ReviewCard";
 import CTASection from "@/components/CTASection";
 import RelatedServices from "@/components/RelatedServices";
 import FAQList from "@/components/FAQList";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema, faqPageSchema, serviceSchema } from "@/lib/schema";
+import { SITE } from "@/lib/constants";
+
+const SLUG = "/pipe-repair";
+const SERVICE_NAME = "Pipe Repair & Whole-Home Repiping";
+const SERVICE_DESCRIPTION = "Burst pipe repair, whole-home repiping, lead-pipe replacement, and galvanized-to-copper or PEX conversions in Providence, Rhode Island.";
 
 export const metadata: Metadata = {
-  title: "Pipe Repair & Replacement Providence RI | Repiping Specialists",
+  title: "Pipe Repair & Repiping | Providence RI",
   description:
     "Expert pipe repair and replacement in Providence, Rhode Island. Leaking pipes, burst pipes, whole-home repiping, lead pipe replacement, and frozen pipe repair. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
@@ -22,6 +29,7 @@ export const metadata: Metadata = {
     "galvanized pipe replacement Providence",
     "licensed plumber pipe repair Providence Rhode Island",
   ],
+  alternates: { canonical: "/pipe-repair" },
 };
 
 const warnings = [
@@ -70,6 +78,13 @@ const reviews = [
 export default function PipeRepairPage() {
   return (
     <>
+      <JsonLd data={breadcrumbSchema([
+        { name: "Home", url: `${SITE.url}/` },
+        { name: "Services", url: `${SITE.url}/services` },
+        { name: "Pipe Repair", url: `${SITE.url}${SLUG}` },
+      ])} />
+      <JsonLd data={serviceSchema({ slug: SLUG, name: SERVICE_NAME, description: SERVICE_DESCRIPTION })} />
+      <JsonLd data={faqPageSchema(SLUG, faqs)} />
       <PageHeader
         breadcrumb="Pipe Repair Providence RI"
         title="Pipe Repair &amp; Replacement<br/>Providence, Rhode Island"

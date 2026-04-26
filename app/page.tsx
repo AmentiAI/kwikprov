@@ -5,6 +5,8 @@ import ReviewCard from "@/components/ReviewCard";
 import CTASection from "@/components/CTASection";
 import RelatedServices from "@/components/RelatedServices";
 import FAQList from "@/components/FAQList";
+import JsonLd from "@/components/JsonLd";
+import { faqPageSchema } from "@/lib/schema";
 import { SITE, AREAS } from "@/lib/constants";
 
 const stats = [
@@ -83,6 +85,7 @@ const faqs = [
 export default function HomePage() {
   return (
     <>
+      <JsonLd data={faqPageSchema("/", faqs)} />
       {/* HERO */}
       <section className="bg-gray-950 text-white py-20 px-4 text-center relative overflow-hidden">
         <video
@@ -113,8 +116,8 @@ export default function HomePage() {
             </span>
           </div>
           <h1 className="text-5xl md:text-7xl font-black leading-tight mb-5 drop-shadow-lg">
-            Providence RI&apos;s Most Trusted<br />
-            <span className="text-brand-orange">Plumbing &amp; Heating</span>
+            Providence RI&apos;s Most Trusted{" "}
+            <span className="text-brand-orange block md:inline">Plumbing &amp; Heating</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto mb-10">
             Licensed master plumbers. Boilers, gas lines, drain cleaning, water heaters &amp; more — serving all of Rhode Island for {SITE.yearsServing} years.
@@ -162,7 +165,8 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto">
           <p className="text-brand-orange text-xs font-bold uppercase tracking-widest text-center mb-2">What We Do</p>
           <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-3">
-            Complete Plumbing &amp; Heating Services<br />Throughout Rhode Island
+            Complete Plumbing &amp; Heating Services{" "}
+            <span className="block">Throughout Rhode Island</span>
           </h2>
           <p className="text-gray-500 text-center max-w-xl mx-auto mb-12">
             From routine repairs to full boiler installations and bathroom remodels — Kwik Plumbing and Heating handles every job for homeowners and businesses across Providence RI and all of Rhode Island.

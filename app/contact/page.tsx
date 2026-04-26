@@ -2,13 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import RelatedServices from "@/components/RelatedServices";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 import { SITE, HOURS, SERVICE_LINKS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Contact Kwik Plumbing Providence RI | Call (401) 639-1047",
+  title: "Contact Kwik Plumbing | Providence RI",
   description:
     "Call Kwik Plumbing and Heating at (401) 639-1047. Licensed master plumbers serving Providence, Rhode Island. Free written estimates on all projects.",
   keywords: ["contact plumber Providence RI", "plumber phone number Providence RI", "call plumber Rhode Island"],
+  alternates: { canonical: "/contact" },
 };
 
 const info = [
@@ -24,6 +27,10 @@ const info = [
 export default function ContactPage() {
   return (
     <>
+      <JsonLd data={breadcrumbSchema([
+        { name: "Home", url: `${SITE.url}/` },
+        { name: "Contact", url: `${SITE.url}/contact` },
+      ])} />
       <PageHeader
         breadcrumb="Contact Us"
         title="Contact Kwik Plumbing<br/>Providence, Rhode Island"

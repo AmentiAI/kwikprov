@@ -5,9 +5,16 @@ import ReviewCard from "@/components/ReviewCard";
 import CTASection from "@/components/CTASection";
 import RelatedServices from "@/components/RelatedServices";
 import FAQList from "@/components/FAQList";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema, faqPageSchema, serviceSchema } from "@/lib/schema";
+import { SITE } from "@/lib/constants";
+
+const SLUG = "/water-heater";
+const SERVICE_NAME = "Water Heater Repair & Installation";
+const SERVICE_DESCRIPTION = "Tank and tankless water heater repair, replacement, and same-day installation in Providence, Rhode Island. Navien, Rinnai, Noritz, Rheem, Bradford White, and more.";
 
 export const metadata: Metadata = {
-  title: "Water Heater Repair & Replacement Providence RI | Kwik Plumbing",
+  title: "Water Heater Repair & Replacement | Providence RI",
   description:
     "Water heater repair and installation in Providence, Rhode Island. Tank and tankless water heaters — same-day service available. All brands serviced. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
@@ -22,6 +29,7 @@ export const metadata: Metadata = {
     "water heater plumber Providence Rhode Island",
     "same day water heater repair Providence",
   ],
+  alternates: { canonical: "/water-heater" },
 };
 
 const problems = [
@@ -62,6 +70,13 @@ const reviews = [
 export default function WaterHeaterPage() {
   return (
     <>
+      <JsonLd data={breadcrumbSchema([
+        { name: "Home", url: `${SITE.url}/` },
+        { name: "Services", url: `${SITE.url}/services` },
+        { name: "Water Heaters", url: `${SITE.url}${SLUG}` },
+      ])} />
+      <JsonLd data={serviceSchema({ slug: SLUG, name: SERVICE_NAME, description: SERVICE_DESCRIPTION })} />
+      <JsonLd data={faqPageSchema(SLUG, faqs)} />
       <PageHeader
         breadcrumb="Water Heater Services Providence RI"
         title="Water Heater Repair &amp; Installation<br/>Providence, Rhode Island"

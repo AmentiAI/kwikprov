@@ -4,13 +4,16 @@ import PageHeader from "@/components/PageHeader";
 import ReviewCard from "@/components/ReviewCard";
 import CTASection from "@/components/CTASection";
 import RelatedServices from "@/components/RelatedServices";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 import { SITE } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "About Kwik Plumbing Providence RI | Local Plumber Since 2005",
+  title: "About Kwik Plumbing | Providence RI Plumber Since 2009",
   description:
-    "Kwik Plumbing is Providence RI's locally owned plumbing company. Licensed master plumbers serving Providence Rhode Island since 2005. Learn about our team and values.",
+    "Kwik Plumbing is Providence RI's locally owned plumbing company. Licensed master plumbers serving Providence Rhode Island since 2009. Learn about our team and values.",
   keywords: ["about Kwik Plumbing Providence RI", "local plumber Providence Rhode Island", "licensed plumber Providence", "best plumber Providence RI"],
+  alternates: { canonical: "/about" },
 };
 
 const certs = [
@@ -33,9 +36,9 @@ const values = [
 ];
 
 const stats = [
-  { num: "20+", label: "Years Serving Providence RI" },
-  { num: "4,500+", label: "Jobs Completed" },
-  { num: "4.9★", label: "Google Rating (312 reviews)" },
+  { num: "15+", label: "Years Serving Providence RI" },
+  { num: "5,000+", label: "Jobs Completed" },
+  { num: "4.9★", label: "Google Rating" },
   { num: "12", label: "Licensed Technicians" },
   { num: "8", label: "Fully-Stocked Service Vans" },
   { num: "$2M", label: "Liability Insurance Coverage" },
@@ -50,9 +53,13 @@ const reviews = [
 export default function AboutPage() {
   return (
     <>
+      <JsonLd data={breadcrumbSchema([
+        { name: "Home", url: `${SITE.url}/` },
+        { name: "About", url: `${SITE.url}/about` },
+      ])} />
       <PageHeader
         breadcrumb="About Kwik Plumbing"
-        title="Providence&apos;s Locally Owned<br/>Plumbing Company Since 2005"
+        title="Providence&apos;s Locally Owned<br/>Plumbing Company Since 2009"
         subtitle="We're not a franchise. We're your Providence neighbors — a family-owned plumbing company that lives, works, and raises our families right here in Providence, Rhode Island."
       />
 
@@ -68,7 +75,7 @@ export default function AboutPage() {
               What started as a one-man operation out of a pickup truck has grown into a full-service Providence plumbing company with a fleet of fully-stocked service vans, a team of licensed and trained technicians, and a reputation built entirely on word-of-mouth referrals from satisfied Providence customers. We&apos;ve never spent a dollar on a national franchise fee — every dollar we invest goes into better equipment, better training, and better service for our Providence community.
             </p>
             <p>
-              Over 20 years and more than 4,500 completed jobs later, we&apos;re still here — still local, still answering the phone personally, and still treating every Providence homeowner and business owner the way we&apos;d want our own family treated.
+              Over 15 years and more than 5,000 completed jobs later, we&apos;re still here — still local, still answering the phone personally, and still treating every Providence homeowner and business owner the way we&apos;d want our own family treated.
             </p>
 
             <h2>Our Team</h2>
@@ -145,7 +152,7 @@ export default function AboutPage() {
 
       <CTASection
         heading="Providence&apos;s Plumbing Company — Ready to Help."
-        subtext="For over 20 years, Kwik Plumbing has been Providence's trusted choice for residential and commercial plumbing. Call today for honest service, fair pricing, and real results."
+        subtext="For over 15 years, Kwik Plumbing has been Providence's trusted choice for residential and commercial plumbing. Call today for honest service, fair pricing, and real results."
       />
     </>
   );

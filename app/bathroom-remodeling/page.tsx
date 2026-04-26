@@ -5,9 +5,16 @@ import ReviewCard from "@/components/ReviewCard";
 import CTASection from "@/components/CTASection";
 import RelatedServices from "@/components/RelatedServices";
 import FAQList from "@/components/FAQList";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema, faqPageSchema, serviceSchema } from "@/lib/schema";
+import { SITE } from "@/lib/constants";
+
+const SLUG = "/bathroom-remodeling";
+const SERVICE_NAME = "Bathroom Remodeling Plumbing";
+const SERVICE_DESCRIPTION = "Complete bathroom rough-in to finish plumbing for renovations in Providence, Rhode Island. Showers, wet rooms, vanities, toilets, and tubs.";
 
 export const metadata: Metadata = {
-  title: "Bathroom Remodeling Providence RI | Plumbing for Renovations",
+  title: "Bathroom Remodeling Plumbing | Providence RI",
   description:
     "Expert bathroom remodeling plumbing in Providence, Rhode Island. Shower installation, wet rooms, complete bathroom fitting, toilet installation, and vanity plumbing. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
@@ -23,6 +30,7 @@ export const metadata: Metadata = {
     "shower installation East Side Providence RI",
     "licensed bathroom plumber Providence Rhode Island",
   ],
+  alternates: { canonical: "/bathroom-remodeling" },
 };
 
 const remodelServices = [
@@ -120,6 +128,13 @@ const reviews = [
 export default function BathroomRemodelingPage() {
   return (
     <>
+      <JsonLd data={breadcrumbSchema([
+        { name: "Home", url: `${SITE.url}/` },
+        { name: "Services", url: `${SITE.url}/services` },
+        { name: "Bathroom Remodeling", url: `${SITE.url}${SLUG}` },
+      ])} />
+      <JsonLd data={serviceSchema({ slug: SLUG, name: SERVICE_NAME, description: SERVICE_DESCRIPTION })} />
+      <JsonLd data={faqPageSchema(SLUG, faqs)} />
       <PageHeader
         breadcrumb="Bathroom Remodeling Providence RI"
         title="Bathroom Remodeling<br/>Providence, Rhode Island"

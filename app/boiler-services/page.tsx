@@ -5,9 +5,16 @@ import ReviewCard from "@/components/ReviewCard";
 import CTASection from "@/components/CTASection";
 import RelatedServices from "@/components/RelatedServices";
 import FAQList from "@/components/FAQList";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema, faqPageSchema, serviceSchema } from "@/lib/schema";
+import { SITE } from "@/lib/constants";
+
+const SLUG = "/boiler-services";
+const SERVICE_NAME = "Boiler Installation, Repair & Maintenance";
+const SERVICE_DESCRIPTION = "Expert boiler installation, repair, and maintenance in Providence, Rhode Island. Gas, oil, and steam boilers. Authorized Navien specialist.";
 
 export const metadata: Metadata = {
-  title: "Boiler Services Providence RI | Install, Repair & Maintenance",
+  title: "Boiler Services | Providence RI",
   description:
     "Expert boiler installation, repair, and maintenance in Providence, Rhode Island. Gas, oil, and steam boilers. Authorized Navien specialist. Licensed master plumbers. Call Kwik Plumbing (401) 639-1047.",
   keywords: [
@@ -24,6 +31,7 @@ export const metadata: Metadata = {
     "boiler repair Federal Hill Providence",
     "boiler service East Side Providence RI",
   ],
+  alternates: { canonical: "/boiler-services" },
 };
 
 const boilerTypes = [
@@ -152,6 +160,13 @@ const reviews = [
 export default function BoilerServicesPage() {
   return (
     <>
+      <JsonLd data={breadcrumbSchema([
+        { name: "Home", url: `${SITE.url}/` },
+        { name: "Services", url: `${SITE.url}/services` },
+        { name: "Boiler Services", url: `${SITE.url}${SLUG}` },
+      ])} />
+      <JsonLd data={serviceSchema({ slug: SLUG, name: SERVICE_NAME, description: SERVICE_DESCRIPTION })} />
+      <JsonLd data={faqPageSchema(SLUG, faqs)} />
       <PageHeader
         breadcrumb="Boiler Services Providence RI"
         title="Boiler Services<br/>Providence, Rhode Island"

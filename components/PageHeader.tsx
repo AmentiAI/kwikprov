@@ -1,5 +1,11 @@
 import Link from "next/link";
 
+// Normalize <br> tags so an innerText extractor (used by AI scrapers and
+// some accessibility tools) doesn't concatenate the surrounding words.
+function normalizeBreaks(html: string): string {
+  return html.replace(/\s*<br\s*\/?>\s*/gi, " <br/> ");
+}
+
 interface PageHeaderProps {
   breadcrumb?: string;
   title: string;
@@ -26,7 +32,7 @@ export default function PageHeader({ breadcrumb, title, subtitle, image = DEFAUL
       )}
       <h1
         className="text-4xl md:text-6xl font-black leading-tight mb-5 tracking-tight relative z-10"
-        dangerouslySetInnerHTML={{ __html: title }}
+        dangerouslySetInnerHTML={{ __html: normalizeBreaks(title) }}
       />
       {subtitle && (
         <p className="text-lg md:text-xl opacity-90 max-w-3xl mx-auto leading-relaxed relative z-10">{subtitle}</p>

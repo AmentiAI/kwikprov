@@ -4,10 +4,12 @@ import PageHeader from "@/components/PageHeader";
 import ServiceCard from "@/components/ServiceCard";
 import CTASection from "@/components/CTASection";
 import RelatedServices from "@/components/RelatedServices";
-import { AREAS } from "@/lib/constants";
+import JsonLd from "@/components/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
+import { AREAS, SITE } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Plumbing & Heating Services Providence RI | Kwik Plumbing",
+  title: "Plumbing & Heating Services | Providence RI",
   description:
     "Complete plumbing and heating services in Providence RI. Boilers, gas lines, drain cleaning, bathroom remodeling, water heaters, leak detection, pipe repair, and more. Licensed master plumbers. Call (401) 639-1047.",
   keywords: [
@@ -19,6 +21,7 @@ export const metadata: Metadata = {
     "leak detection Rhode Island",
     "drain cleaning Providence RI",
   ],
+  alternates: { canonical: "/services" },
 };
 
 const serviceCategories = [
@@ -144,6 +147,10 @@ const serviceCategories = [
 export default function ServicesPage() {
   return (
     <>
+      <JsonLd data={breadcrumbSchema([
+        { name: "Home", url: `${SITE.url}/` },
+        { name: "Services", url: `${SITE.url}/services` },
+      ])} />
       <PageHeader
         breadcrumb="Plumbing & Heating Services Providence RI"
         title="Complete Plumbing &amp; Heating Services<br/>Providence, Rhode Island"
