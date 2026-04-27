@@ -180,7 +180,7 @@ export default function BoilerServicesPage() {
             <p className="text-brand-orange text-xs font-bold uppercase tracking-widest mb-2">Providence RI Boiler Experts</p>
             <h2>Complete Boiler Services for Rhode Island Homes</h2>
             <p>
-              Heating your Rhode Island home through a long New England winter demands a reliable boiler. Kwik Plumbing and Heating Inc. has been the boiler service specialist for Providence, Cranston, Warwick, and all of Rhode Island for over 15 years. Whether you need a tune-up on an aging steam boiler, a repair on a no-heat situation, or a complete high-efficiency replacement, our licensed master plumbers handle every boiler job with the expertise your system demands.
+              Heating your Rhode Island home through a long New England winter demands a reliable boiler. Kwik Plumbing and Heating Inc. has been the boiler service specialist for Providence and surrounding areas for over 15 years. Whether you need a tune-up on an aging steam boiler, a repair on a no-heat situation, or a complete high-efficiency replacement, our licensed master plumbers handle every boiler job with the expertise your system demands.
             </p>
             <p>
               As an authorized Navien specialist and experienced service technician for all major brands, we bring factory-level knowledge to every service call. We work on gas boilers, oil boilers, steam boilers, and high-efficiency condensing systems — and we pull every permit required by Rhode Island code.

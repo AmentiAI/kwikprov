@@ -75,11 +75,9 @@ export const AREAS: { name: string; slug: string }[] = [
   { name: "Silver Lake",         slug: "silver-lake" },
   { name: "Downtown Providence", slug: "downtown-providence" },
   { name: "North Providence",    slug: "north-providence" },
-  { name: "Cranston RI",         slug: "cranston" },
   { name: "East Providence",     slug: "east-providence" },
   { name: "Pawtucket RI",        slug: "pawtucket" },
   { name: "Lincoln RI",          slug: "lincoln" },
-  { name: "Warwick RI",          slug: "warwick" },
 ];
 
 export const SERVICES_LIST = [

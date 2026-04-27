@@ -122,12 +122,12 @@ const reviews = [
   {
     text: "Had a gas smell in my basement. Kwik came out the same morning, found a pinhole leak in an old black iron fitting behind the furnace, and replaced the section properly. They also pressure tested the entire system before leaving. Very thorough.",
     name: "Patricia L.",
-    location: "Cranston, RI",
+    location: "Federal Hill, Providence RI",
   },
   {
     text: "We wanted a gas fire pit on our patio. Kwik handled the entire project — permit, trenching, underground line, and connection to the fire pit. Perfectly done and it adds so much to our backyard. Worth every penny.",
     name: "Steve and Amy K.",
-    location: "Warwick, RI",
+    location: "Pawtucket, RI",
   },
 ];
 
@@ -153,7 +153,7 @@ export default function GasServicesPage() {
             <p className="text-brand-orange text-xs font-bold uppercase tracking-widest mb-2">Licensed Gas Plumbers — Rhode Island</p>
             <h2>Professional Gas Services for Providence RI Homes &amp; Businesses</h2>
             <p>
-              Gas line work is among the most safety-critical services a plumber performs. Rhode Island law requires that all gas piping work be completed by a licensed master plumber — and at Kwik Plumbing, every gas service we perform is done by our licensed, gas-safe certified team with all required permits and inspections. We serve Providence, Cranston, Warwick, East Providence, and all of Rhode Island.
+              Gas line work is among the most safety-critical services a plumber performs. Rhode Island law requires that all gas piping work be completed by a licensed master plumber — and at Kwik Plumbing, every gas service we perform is done by our licensed, gas-safe certified team with all required permits and inspections. We serve Providence, East Providence, and surrounding areas.
             </p>
             <p>
               From connecting a new gas range to running underground lines for outdoor fire features to diagnosing gas leaks with electronic detection equipment, our team handles the full spectrum of residential and commercial gas work — safely, properly, and in compliance with Rhode Island code.

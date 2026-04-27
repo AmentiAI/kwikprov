@@ -1013,7 +1013,7 @@ export const locations: Location[] = [
       "Elmwood residents deserve the same quality of plumbing service that Providence's more affluent neighborhoods receive, and Kwik Plumbing is committed to providing exactly that. Our pricing in Elmwood is honest and competitive, our response times are fast, and our technicians are professional and respectful in every home we enter. We don't offer different levels of service based on a neighborhood's economic profile — every Elmwood homeowner gets our best.",
       "Our team's familiarity with Elmwood's specific plumbing challenges — particularly the sewer root intrusion issue that affects so many homes near the park — means we arrive already understanding what we're likely to find and equipped to address it. Faster diagnosis means less time on-site and lower overall costs for Elmwood homeowners."
     ],
-    nearbyAreas: ["West End", "Cranston", "Roger Williams Park", "South Providence", "Broadway"],
+    nearbyAreas: ["West End", "Roger Williams Park", "South Providence", "Broadway"],
     reviews: [
       {
         text: "Had roots completely blocking my sewer line near the park on Elmwood Avenue. Kwik Plumbing showed me the camera footage, explained exactly what the roots had done, cleared the line completely with the jetter, and lined the pipe. No more root problems and no more backup. Excellent service.",
@@ -1039,10 +1039,6 @@ export const locations: Location[] = [
       {
         q: "Can pipe lining solve root intrusion permanently in an Elmwood sewer line?",
         a: "Trenchless CIPP pipe lining creates a smooth, seamless new pipe interior that roots cannot penetrate through cracks or joints because the original cracked pipe is fully encased. This provides a long-term solution — typically 25–50 year service life — for laterals that would otherwise continue to suffer root intrusion. It's often less expensive than full replacement and avoids excavating through landscaping or sidewalks."
-      },
-      {
-        q: "Does Kwik Plumbing service homes in the Roger Williams Park area of Cranston as well as Providence?",
-        a: "Yes. Our service area extends south into Cranston along the Elmwood Avenue corridor and throughout the greater Providence metro area. Cranston homeowners near Roger Williams Park call us regularly and receive the same fast response and quality service as our Providence customers."
       },
       {
         q: "What is the average cost of a sewer camera inspection in Elmwood?",
@@ -1114,7 +1110,7 @@ export const locations: Location[] = [
       "The West End deserves the same quality of plumbing service as any neighborhood in Providence, and Kwik Plumbing is committed to delivering it. We treat every West End customer with respect, communicate clearly regardless of language barriers, and never overcharge when problems arise to overcharge. Our flat-rate pricing is the same in the West End as it is everywhere else we work.",
       "We've built genuine relationships in the West End over our 20 years of service in Providence. Many of our West End clients are long-term customers who call us for everything from a running toilet to a burst main supply line. That trust is something we take seriously and work to maintain with every service call."
     ],
-    nearbyAreas: ["Olneyville", "Federal Hill", "Elmwood", "Cranston", "Broad Street"],
+    nearbyAreas: ["Olneyville", "Federal Hill", "Elmwood", "Broad Street"],
     reviews: [
       {
         text: "Burst supply pipe in my West End triple-decker at 11 PM on a Tuesday. Kwik Plumbing was there in about 50 minutes, shut off the water, repaired the pipe, and had water restored to all three units by 1 AM. Fair pricing and a professional job. Thank you.",
@@ -1417,7 +1413,7 @@ export const locations: Location[] = [
       "North Providence homeowners expect quality work, fair pricing, and contractors who show up when they say they will. Kwik Plumbing delivers on all three counts, and our North Providence customer base reflects two decades of consistent service to the community. Whether you're in Fruit Hill, Woodbury, or any of North Providence's neighborhoods, you'll receive the same professional service that has made us Greater Providence's most trusted plumber.",
       "Our familiarity with North Providence's housing stock means we can give accurate estimates over the phone for common service calls, dispatch the right technician with the right parts for your specific situation, and complete most jobs in a single visit. North Providence homeowners value efficiency, and Kwik Plumbing delivers it."
     ],
-    nearbyAreas: ["Smith Hill", "Silver Lake", "Providence", "Pawtucket", "Cranston"],
+    nearbyAreas: ["Smith Hill", "Silver Lake", "Providence", "Pawtucket"],
     reviews: [
       {
         text: "Kwik Plumbing replaced all the galvanized pipes in our 1958 North Providence ranch. The rust-colored water we had accepted as normal is completely gone. The crew was professional, finished in two days, and cleaned up thoroughly. Excellent investment in our home.",
@@ -1455,107 +1451,6 @@ export const locations: Location[] = [
     ]
   },
   {
-    slug: "cranston",
-    name: "Cranston",
-    fullName: "Cranston, RI",
-    metaTitle: "Plumber in Cranston RI | Kwik Plumbing",
-    metaDescription: "Expert plumbing in Cranston RI. Garden City, Edgewood, Cranston Street. Full residential and commercial plumbing, drain cleaning, water heater service. Call us today.",
-    keywords: ["plumber Cranston RI", "Cranston plumbing", "Garden City plumber", "Edgewood Providence plumber", "drain cleaning Cranston Rhode Island"],
-    heroTitle: "Plumbing Services in Cranston, RI",
-    heroSubtitle: "Serving Cranston homeowners and businesses from Garden City to Edgewood — complete plumbing services, honest pricing,",
-    intro: [
-      "Cranston is Rhode Island's third-largest city and one of the state's most dynamic communities, offering the amenities of a major suburban city while remaining just minutes from downtown Providence. From the upscale retail corridor of Garden City Center to the historic Narragansett Bay waterfront neighborhood of Edgewood, Cranston encompasses an extraordinary range of residential and commercial character. Kwik Plumbing has served Cranston homeowners and businesses throughout this diversity, building a reputation across all of the city's neighborhoods for fast, reliable, and fairly priced plumbing service.",
-      "Cranston's housing stock spans a remarkably broad era — from the Edgewood neighborhood's late 19th and early 20th century homes overlooking Narragansett Bay to the 1940s–1960s ranch and cape homes that define much of central and western Cranston, to the 1970s–1990s colonial-style developments in the city's outer neighborhoods. This span of construction eras means that Cranston plumbers encounter everything from failing galvanized pipes in 1920s Edgewood colonials to aging copper in 1980s subdivision homes to the plumbing challenges of commercial properties along Cranston Street and Reservoir Avenue.",
-      "Cranston's commercial character — particularly along Cranston Street, Reservoir Avenue, and the Garden City and Chapel View corridors — generates steady commercial plumbing demand alongside the city's large residential market. Kwik Plumbing provides commercial plumbing services to Cranston businesses with the same expertise and reliability we bring to residential work."
-    ],
-    housingContext: [
-      "Edgewood — Cranston's elegant waterfront neighborhood abutting the Providence line along Narragansett Bay — has the city's oldest and most architecturally significant housing. Large Victorian and Colonial Revival homes built from the 1890s through the 1920s line the streets near the bay, and these homes have plumbing profiles similar to the East Side of Providence — a mix of galvanized and early copper supply pipes, cast iron drain systems, and the complex plumbing histories that come with 100-plus year old homes. Edgewood is where Kwik Plumbing's historic home expertise is most called upon in Cranston.",
-      "Central Cranston's post-war housing — the cape cods and ranches built through the 1950s and 1960s along Phenix Avenue, Pontiac Avenue, and the streets feeding off them — is now reaching an age where galvanized pipe replacement and water heater aging are common service drivers. These modest, well-maintained homes have owners who take pride in their properties and respond to the signs of aging plumbing with action rather than deferred maintenance.",
-      "Cranston's commercial corridors present diverse commercial plumbing needs. The restaurant and retail density around Garden City Center and Reservoir Avenue generates grease trap service, commercial drain cleaning, and equipment plumbing needs. The manufacturing and light industrial businesses in Cranston's commercial zones have their own plumbing requirements. Kwik Plumbing serves Cranston's commercial sector with appropriate commercial-grade plumbing expertise."
-    ],
-    commonIssues: [
-      {
-        title: "Edgewood Victorian Home Pipe Aging",
-        description: "Edgewood's oldest homes near Narragansett Bay have galvanized supply pipes and cast iron drain systems from the early 20th century that are reaching or past their service life. Rust-colored water, low pressure, and slow drains are common signs in this part of Cranston. Kwik Plumbing provides galvanized repipes and drain system assessments for Edgewood homeowners investing in their historic waterfront properties."
-      },
-      {
-        title: "Post-War Ranch Home System Aging",
-        description: "Central Cranston's large stock of 1950s–1960s ranch homes faces the same galvanized pipe aging issues as similar homes throughout the region. The combination of age and typically heavy family use in these owner-occupied homes has accelerated wear in many supply and drain systems. Proactive assessment and targeted repairs extend the life of these systems before catastrophic failure occurs."
-      },
-      {
-        title: "Garden City Area Commercial Plumbing",
-        description: "The high density of restaurants and food service establishments around Garden City Center creates significant grease trap and commercial drain cleaning demand. Kwik Plumbing provides scheduled grease trap service and commercial drain maintenance for Garden City area businesses, preventing the health code violations and kitchen shutdowns that result from inadequate grease management."
-      },
-      {
-        title: "Water Heater Failure in Cold Weather",
-        description: "Cranston's cold New England winters accelerate water heater aging by increasing demand and stressing tanks through temperature cycling. Water heater failures in winter are more common and more urgent than in warmer months. Kwik Plumbing provides rapid water heater replacement throughout Cranston with same-day availability for standard tank sizes."
-      }
-    ],
-    servicesSection: [
-      "Kwik Plumbing provides comprehensive plumbing services throughout Cranston — from Edgewood to Garden City, from Knightsville to Auburn. Our residential services cover fast response, routine repairs, drain cleaning, water heater service, and renovation plumbing for Cranston's diverse housing stock. Our commercial services cover grease trap pumping, commercial drain cleaning, backflow preventer testing, and commercial response for Cranston businesses.",
-      "Cranston homeowners benefit from our flat-rate pricing, which means no surprise charges regardless of how complex the job turns out to be. We provide written estimates before starting any work, and the price we quote is the price you pay. This straightforward approach has earned us loyalty from Cranston customers who appreciate knowing exactly what they're getting into.",
-      "For Cranston property investors and landlords, we offer multi-unit plumbing services and maintenance agreements that provide regular inspection visits, scheduled drain cleaning, and priority response. Cranston's rental housing market is active and competitive, and properties with well-maintained plumbing command better rents and experience fewer tenant turnover issues related to maintenance."
-    ],
-    localServices: [
-      {
-        title: "Edgewood Victorian Home Plumbing",
-        description: "Specialized plumbing service for Cranston's Edgewood neighborhood Victorian and Colonial homes, including galvanized repipes, drain system assessment, and historic fixture work."
-      },
-      {
-        title: "Commercial Grease Trap & Drain Service",
-        description: "Scheduled grease trap pumping and commercial drain cleaning for Cranston restaurants and food service businesses throughout Garden City and Cranston Street corridors."
-      },
-      {
-        title: "Water Heater Replacement",
-        description: "Same-day water heater replacement throughout Cranston, with standard tank and high-efficiency tankless options for all home types."
-      },
-      {
-        title: "Full Residential Service",
-        description: "Complete residential plumbing throughout Cranston — fast repairs, drain cleaning, fixture installation, renovation rough-in, and preventive maintenance."
-      }
-    ],
-    whyUs: [
-      "Cranston is a large city with many plumbing contractors competing for business, and Kwik Plumbing earns Cranston customers through consistently excellent work at fair prices. We don't rely on Cranston customers not knowing the market — our prices are competitive, our work is high quality, and we back everything with a satisfaction guarantee. Cranston homeowners who choose Kwik Plumbing once typically become long-term customers.",
-      "Our geographic coverage of Cranston means that wherever you are in the city — whether you're in Edgewood near the bay or in the Auburn neighborhood near the Scituate border — you can expect the same fast response time and quality of service. We have enough coverage throughout the Providence metro area to guarantee 60-minute fast response citywide."
-    ],
-    nearbyAreas: ["Elmwood", "West End", "Warwick", "Providence", "East Providence"],
-    reviews: [
-      {
-        text: "Kwik Plumbing has handled all our plumbing at our Edgewood home for years — from a complete galvanized repipe to annual water heater service to a couple of service calls. Always professional, always fairly priced, always quality work. They're our permanent Cranston plumber.",
-        name: "Barbara S.",
-        location: "Edgewood, Cranston RI"
-      },
-      {
-        text: "My Garden City restaurant's grease trap was overflowing and I was getting violation notices. Kwik Plumbing pumped the trap, assessed the size requirements, and installed a larger unit. No more violations and I'm on their maintenance schedule now. Problem fully solved.",
-        name: "Giovanni A.",
-        location: "Garden City, Cranston RI"
-      },
-      {
-        text: "Hot water heater failure in our 1960s ranch in Cranston on a cold December morning. Kwik Plumbing came the same day with a replacement unit and had hot water running by early afternoon. Great same-day service, fair pricing.",
-        name: "Ellen K.",
-        location: "Cranston RI"
-      }
-    ],
-    faqs: [
-      {
-        q: "Do you serve all of Cranston or just certain neighborhoods?",
-        a: "We serve all of Cranston — from Edgewood and Pawtuxet Village near the Providence line to Knightsville, Auburn, and the Garden City area throughout the city. Cranston is a large geographic area and we have the coverage to respond quickly to any part of it. If you're uncertain whether your Cranston address is in our service area, just call and we'll confirm immediately."
-      },
-      {
-        q: "My Cranston home was built in 1955. What plumbing maintenance should I prioritize?",
-        a: "For a 1955 Cranston home, we recommend checking the supply pipe material first — if you have original galvanized steel pipes, repiping should be a near-term priority. We also recommend a sewer camera inspection to assess the condition of your lateral, a water heater assessment if you don't know the heater's age, and pressure regulator testing. These four items cover the main age-related risks in a home of this vintage."
-      },
-      {
-        q: "Is Kwik Plumbing a local Rhode Island company or a national franchise?",
-        a: "Kwik Plumbing is a locally owned and operated Providence Rhode Island company, not a franchise. We were founded in Providence in 2005 and have served the Greater Providence area — including Cranston — ever since. Our plumbers are Rhode Island-licensed, our office is in Providence, and our decision-making is entirely local. We're your neighbors, not a national call center."
-      },
-      {
-        q: "What areas of Cranston are most affected by sewer backup issues?",
-        a: "Low-lying areas of Cranston — including sections of Edgewood near the bay and properties in flood-prone areas along the Pawtuxet River corridor — are most susceptible to sewer backup during heavy rain events. Homes in these areas benefit from backflow prevention devices. We can assess your specific property's risk and recommend appropriate protection based on your home's elevation and sewer connection configuration."
-      }
-    ]
-  },
-  {
     slug: "east-providence",
     name: "East Providence",
     fullName: "East Providence, RI",
@@ -1571,7 +1466,7 @@ export const locations: Location[] = [
     ],
     housingContext: [
       "Riverside is East Providence's jewel — a historic waterfront community with a mix of original Victorian cottages, early 20th century bungalows, and newer construction that has replaced some of the oldest summer cottages over the decades. The oldest Riverside homes retain much of their original plumbing in various states of repair or replacement, and the combination of age, seasonal use patterns, and salt air exposure creates specific maintenance needs. Kwik Plumbing's Riverside work often involves upgrading older plumbing in homes that are now used year-round rather than seasonally, a conversion that places greater demand on systems originally designed for summer occupancy.",
-      "The Rumford section of East Providence — the neighborhoods around Newman Avenue, Pawtucket Avenue, and the Rumford business district — features mid-century single-family homes and commercial buildings that represent East Providence's post-war residential growth. These homes are now 60–80 years old and entering the period where galvanized supply pipe replacement and water heater aging become primary maintenance concerns. Kwik Plumbing's Rumford work follows a similar pattern to our work in North Providence and Cranston's mid-century residential areas.",
+      "The Rumford section of East Providence — the neighborhoods around Newman Avenue, Pawtucket Avenue, and the Rumford business district — features mid-century single-family homes and commercial buildings that represent East Providence's post-war residential growth. These homes are now 60–80 years old and entering the period where galvanized supply pipe replacement and water heater aging become primary maintenance concerns. Kwik Plumbing's Rumford work follows a similar pattern to our work in North Providence's mid-century residential areas.",
       "East Providence's industrial waterfront along the Providence River has been the site of significant redevelopment and cleanup activity, and some of this industrial heritage has affected the plumbing infrastructure in adjacent residential neighborhoods. Kwik Plumbing is aware of the environmental context of working in East Providence's waterfront-adjacent neighborhoods and takes appropriate precautions in our excavation and pipe replacement work."
     ],
     commonIssues: [
@@ -1640,7 +1535,7 @@ export const locations: Location[] = [
     faqs: [
       {
         q: "Do you serve East Providence or only Providence city?",
-        a: "We serve East Providence fully, including Riverside, Rumford, Watchemoket, and all of East Providence's neighborhoods. Our service area covers all of Providence and the surrounding municipalities — East Providence, Cranston, North Providence, Pawtucket, Lincoln, and Warwick. Call us at (401) 639-1047 and we can confirm coverage for your specific address."
+        a: "We serve East Providence fully, including Riverside, Rumford, Watchemoket, and all of East Providence's neighborhoods. Our service area covers all of Providence and the surrounding municipalities — East Providence, North Providence, Pawtucket, and Lincoln. Call us at (401) 639-1047 and we can confirm coverage for your specific address."
       },
       {
         q: "My Riverside home is used only seasonally. What plumbing services do I need?",
@@ -1855,107 +1750,6 @@ export const locations: Location[] = [
       {
         q: "Can you provide same-day service in Lincoln RI?",
         a: "Yes. For plumbing issues in Lincoln, we provide response with a 60-minute target arrival time. For non-our service calls, we typically offer same-day or next-day appointments depending on our schedule. Lincoln is fully within our service area and we give it the same scheduling priority as our Providence work."
-      }
-    ]
-  },
-  {
-    slug: "warwick",
-    name: "Warwick",
-    fullName: "Warwick, RI",
-    metaTitle: "Plumber in Warwick RI | Kwik Plumbing",
-    metaDescription: "Expert plumbing in Warwick RI. TF Green Airport area, Apponaug Village, Narragansett Bay waterfront homes. Residential and commercial plumbing, reliable service.",
-    keywords: ["plumber Warwick RI", "Warwick Rhode Island plumbing", "Apponaug plumber", "TF Green Airport area plumber", "Warwick waterfront home plumber RI"],
-    heroTitle: "Plumbing Services in Warwick, RI",
-    heroSubtitle: "Warwick's trusted plumber for waterfront homes, ranch-era housing, and airport corridor businesses — complete plumbing services,",
-    intro: [
-      "Warwick is Rhode Island's second-largest city and one of the most geographically extensive municipalities in the state, encompassing a remarkably diverse range of residential and commercial character. From the historic Apponaug Village — Warwick's charming town center with buildings dating to the 1800s — to the extensive Narragansett Bay waterfront with hundreds of homes on tidal coves and salt ponds, to the busy commercial corridor around TF Green International Airport and Warwick Mall, Warwick offers plumbing contractors a uniquely varied service environment. Kwik Plumbing serves Warwick homeowners and businesses with the full range of residential and commercial plumbing services the city demands.",
-      "Warwick's residential landscape is dominated by the 1950s–1970s ranch and cape homes that were built as Providence families moved to the suburbs in the post-war era. These homes — concentrated in the Greenwood, Buttonwoods, Conimicut, and Gaspee neighborhoods — are now 50–70 years old and have entered the era where supply pipe replacement, water heater aging, and drain system maintenance become regular needs. This post-war ranch housing represents the largest single category of Warwick plumbing service calls, and Kwik Plumbing is thoroughly experienced with the plumbing characteristics of Rhode Island's mid-century residential construction.",
-      "Warwick's extensive waterfront — over 39 miles of bay coastline — creates a substantial market for waterfront home plumbing services. Homes on Narragansett Bay, Greenwich Bay, Potowomut River, and the many tidal coves and ponds throughout the city require the same salt-air-aware, flood-conscious plumbing approach that Kwik Plumbing brings to East Providence's Riverside neighborhood and other coastal Rhode Island communities."
-    ],
-    housingContext: [
-      "The post-war ranch and cape homes that dominate Warwick's residential landscape were built with galvanized steel supply pipes in the earliest examples (1940s–1950s) and early copper in the later ones (1960s–1970s). Both pipe types are now approaching or past their recommended service lives in significant proportions of Warwick's housing stock. Galvanized pipe in Warwick's oldest ranch homes shows the same internal corrosion and flow restriction seen throughout the region, while the older copper in 1960s Warwick homes occasionally develops the pinhole leaks that are characteristic of Type M copper near the end of its life.",
-      "Warwick's waterfront neighborhoods — Conimicut Point, Oakland Beach, Buttonwoods, and the many marina and boat launch communities — have housing that has been particularly challenged by the combination of age and salt-air exposure. Outdoor plumbing components including hose bibs, outdoor shutoffs, and exposed supply runs near waterfront homes experience accelerated corrosion that requires regular inspection and replacement. Interior plumbing in properly maintained waterfront homes is less affected but should be assessed as part of any post-storm inspection.",
-      "The TF Green Airport corridor and Warwick Mall area support a dense commercial and hotel district with significant commercial plumbing needs. Restaurants, hotels, and the retail and service businesses concentrated around Route 2, West Shore Road, and Post Road generate grease trap service requirements, commercial drain cleaning needs, and hotel-scale plumbing maintenance demands that Kwik Plumbing serves with appropriate commercial expertise."
-    ],
-    commonIssues: [
-      {
-        title: "Ranch Home Supply Pipe Aging",
-        description: "Warwick's large post-war ranch housing stock has a very high proportion of homes with aging galvanized or early copper supply pipes. Galvanized homes from the 1950s are showing severe corrosion in many cases, while 1960s–1970s copper homes are entering the age range where pinhole leaks become a periodic occurrence. Proactive assessment and repiping prevents the sudden pipe failures that cause water damage in finished rooms and basements."
-      },
-      {
-        title: "Waterfront Home Corrosion & Salt Air Damage",
-        description: "Warwick's bay waterfront homes experience elevated corrosion rates on outdoor plumbing components. Hose bibs, outdoor shutoffs, and exposed supply risers near the exterior of waterfront homes require regular inspection and replacement with corrosion-resistant materials. Kwik Plumbing uses stainless and brass fittings for outdoor work on Warwick waterfront properties."
-      },
-      {
-        title: "Airport Corridor Commercial Drain & Grease Service",
-        description: "The high density of restaurants and food service operations near TF Green Airport and Warwick Mall generates constant grease trap and commercial drain cleaning demand. Kwik Plumbing provides scheduled commercial grease trap service and drain maintenance for airport corridor businesses, preventing the health code issues that inadequate grease management creates."
-      },
-      {
-        title: "Sump Pump Protection for Low-Lying Bay Areas",
-        description: "Warwick's tidal cove communities and low-lying waterfront neighborhoods are susceptible to basement water intrusion during major storm events and heavy rainfall. Properly sized sump pump systems with battery backup are essential for Warwick homes in these areas, and Kwik Plumbing installs and services these systems throughout the city's bay-adjacent neighborhoods."
-      }
-    ],
-    servicesSection: [
-      "Kwik Plumbing's Warwick services are built around the city's dominant service needs — post-war ranch home maintenance and repiping, waterfront home plumbing, and commercial service for the airport corridor and mall area. Our residential team handles the full range of Warwick homeowner needs from fast response to renovation plumbing, and our commercial team serves Warwick's hotels, restaurants, and commercial properties with appropriate commercial-grade service.",
-      "Warwick homeowners planning kitchen or bathroom renovations can count on Kwik Plumbing for complete renovation plumbing — rough-in work, fixture installation, and the supply and drain upgrades that renovations often reveal are needed. We work throughout Warwick's diverse neighborhoods, from Apponaug Village's older homes to the newest construction in the city's outer neighborhoods.",
-      "For Warwick businesses in the airport corridor — including the hotels that serve TF Green travelers, the restaurants along Post Road, and the retail operations at Warwick Mall — we provide commercial plumbing services with the reliability that businesses with high customer traffic demand. Commercial plumbing issues in the airport corridor get the same urgent response we'd provide to a downtown Providence restaurant."
-    ],
-    localServices: [
-      {
-        title: "Ranch Home Repipe",
-        description: "Galvanized to copper or PEX repiping for Warwick's 1950s–1960s ranch and cape homes, restoring full water pressure and eliminating rust contamination throughout the supply system."
-      },
-      {
-        title: "Waterfront Home Plumbing",
-        description: "Specialized plumbing for Warwick's Narragansett Bay waterfront homes, with corrosion-resistant outdoor fixtures, sump systems, and seasonal service options."
-      },
-      {
-        title: "Airport Corridor Commercial Service",
-        description: "Commercial grease trap pumping, drain cleaning, and plumbing for Warwick's TF Green Airport area restaurants, hotels, and commercial properties."
-      },
-      {
-        title: "Full Residential Plumbing",
-        description: "Complete residential plumbing throughout Warwick — fast response, drain cleaning, water heater service, fixture repair, and renovation rough-in for all Warwick neighborhoods."
-      }
-    ],
-    whyUs: [
-      "Warwick is Rhode Island's second-largest city and home to the state's main airport — it deserves a plumbing company with both the capacity to serve a city of this size and the local knowledge to know Conimicut from Greenwood from Apponaug. Kwik Plumbing has that capacity and that local knowledge. Our 20-plus year history serving Greater Providence gives us familiarity with Warwick's neighborhoods that newer or smaller contractors simply can't match.",
-      "Warwick homeowners are practical people who expect quality work at fair prices — no more and no less. Kwik Plumbing delivers exactly that. Our flat-rate pricing means every Warwick homeowner knows what they're getting before the work starts, and our satisfaction guarantee means they know we'll stand behind it. That straightforward value proposition is why Warwick homeowners who choose Kwik Plumbing once tend to come back."
-    ],
-    nearbyAreas: ["Cranston", "East Greenwich RI", "West Warwick RI", "North Kingstown RI", "Providence"],
-    reviews: [
-      {
-        text: "Kwik Plumbing repiped our 1957 Warwick ranch home from galvanized to copper. Work took two days, the crew was professional and tidy, and our water pressure went from barely usable to excellent. The rust-stained water in our tubs and sinks is completely gone. Best home improvement investment we've made.",
-        name: "Raymond G.",
-        location: "Greenwood, Warwick RI"
-      },
-      {
-        text: "I own a restaurant near TF Green and Kwik Plumbing handles all my plumbing and grease trap service. They're prompt, professional, and understand the urgency of keeping a restaurant operational. Had an drain issue before dinner service and they were there in 35 minutes. Outstanding.",
-        name: "Chef Sandra L.",
-        location: "Post Road, Warwick RI"
-      },
-      {
-        text: "Our Conimicut waterfront home needed several outdoor plumbing fixtures replaced — the salt air had destroyed the originals. Kwik Plumbing installed stainless steel frost-proof hose bibs and replaced corroded outdoor shutoffs with appropriate marine-grade hardware. Everything looks and works great.",
-        name: "Bruce A.",
-        location: "Conimicut, Warwick RI"
-      }
-    ],
-    faqs: [
-      {
-        q: "How much does it cost to repipe a 1960s Warwick ranch home?",
-        a: "Repiping a typical 1,200–1,800 sq ft Warwick ranch from galvanized to copper or PEX typically runs $4,500–$9,000 depending on the number of bathrooms, the complexity of the existing pipe routing, and whether any drain line upgrades are needed. We provide detailed written estimates before starting and can phase the project if needed. The investment in a complete repipe typically pays for itself in water pressure improvement and elimination of maintenance calls on corroded pipes."
-      },
-      {
-        q: "Do you service homes in all Warwick neighborhoods?",
-        a: "Yes — we serve all of Warwick including Apponaug, Conimicut, Greenwood, Buttonwoods, Oakland Beach, Gaspee Plateau, Norwood, and every other Warwick neighborhood. Warwick is a large geographic area and we maintain coverage across the entire city. For the most remote areas of Warwick, response times may be slightly longer than in our core service area, but we are fully available throughout the city."
-      },
-      {
-        q: "My Warwick home is on a tidal cove and we occasionally get water in the basement. What are my options?",
-        a: "For Warwick waterfront homes with basement water intrusion during storm events, the most effective protection is a properly sized sump pump system with battery backup that can handle both groundwater rise and any sewer surcharging. For homes where sewer backup is the primary issue, a backflow preventer prevents sewage from entering through floor drains during municipal sewer surcharging. We can assess your specific situation and recommend the right combination of protection measures."
-      },
-      {
-        q: "Does Kwik Plumbing service commercial properties near TF Green Airport?",
-        a: "Yes. We provide full commercial plumbing services for Warwick businesses in the airport corridor and throughout the city. This includes grease trap pumping for restaurants, commercial drain cleaning, backflow preventer testing and certification, hotel plumbing maintenance, and commercial plumbing response. We're familiar with the commercial plumbing requirements of the airport corridor hospitality industry and respond urgently to emergencies in this high-traffic area."
       }
     ]
   }

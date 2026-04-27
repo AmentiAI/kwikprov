@@ -148,7 +148,7 @@ export default function BathroomRemodelingPage() {
             <p className="text-brand-orange text-xs font-bold uppercase tracking-widest mb-2">Bathroom Remodel Plumbing — RI</p>
             <h2>Complete Bathroom Plumbing for Providence Renovations</h2>
             <p>
-              A bathroom remodel is one of the highest-return home improvements you can make — and the plumbing is the backbone that determines whether that investment holds up for decades. Kwik Plumbing and Heating provides complete bathroom plumbing for renovations throughout Providence, Cranston, Warwick, and all of Rhode Island, from initial rough-in planning through final fixture setting.
+              A bathroom remodel is one of the highest-return home improvements you can make — and the plumbing is the backbone that determines whether that investment holds up for decades. Kwik Plumbing and Heating provides complete bathroom plumbing for renovations throughout Providence and surrounding areas, from initial rough-in planning through final fixture setting.
             </p>
             <p>
               We work with homeowners doing DIY renovations, alongside general contractors managing full project builds, and with kitchen and bath designers bringing higher-end projects to life. Our team is experienced with the specific challenges of Rhode Island&apos;s older housing stock — cast iron drain stacks, galvanized supply lines, and the tight spaces of historic Providence homes demand a plumber who has navigated these situations before.

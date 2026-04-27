@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/bathroom-remodeling`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/leak-detection`,      lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/pipe-repair`,         lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE.url}/privacy`,             lastModified: now, changeFrequency: "yearly",  priority: 0.3 },
   ];
 
   // Use the location data file as source of truth; fall back to AREAS list.

@@ -16,7 +16,7 @@ export default function Footer() {
             </div>
           </Link>
           <p className="text-sm leading-relaxed">
-            Providence RI&apos;s trusted plumbing &amp; heating company. Licensed master plumbers serving Providence, Cranston, Warwick &amp; all of Rhode Island for {SITE.yearsServing} years.
+            Providence RI&apos;s trusted plumbing &amp; heating company. Licensed master plumbers serving Providence and surrounding areas for {SITE.yearsServing} years.
           </p>
           <div className="flex flex-wrap gap-2 mt-4">
             {["Licensed Master Plumbers", "Navien Specialist", "Gas Safe Certified"].map((b) => (
@@ -95,7 +95,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto pt-5 flex flex-wrap justify-between items-center gap-3 text-xs text-slate-500">
         <span>&copy; {new Date().getFullYear()} Kwik Plumbing and Heating Inc. All rights reserved. | Johnston, RI 02919</span>
         <span className="flex gap-4">
-          <a href="#" className="hover:text-slate-300 transition-colors">Privacy Policy</a>
+          <Link href="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</Link>
           <a href="/sitemap.xml" className="hover:text-slate-300 transition-colors">Sitemap</a>
         </span>
       </div>

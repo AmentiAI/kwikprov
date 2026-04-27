@@ -124,8 +124,6 @@ const localBusinessSchema = {
   ],
   areaServed: [
     { "@type": "City", name: "Providence", addressRegion: "RI" },
-    { "@type": "City", name: "Cranston", addressRegion: "RI" },
-    { "@type": "City", name: "Warwick", addressRegion: "RI" },
     { "@type": "City", name: "East Providence", addressRegion: "RI" },
     { "@type": "City", name: "Pawtucket", addressRegion: "RI" },
     { "@type": "City", name: "North Providence", addressRegion: "RI" },

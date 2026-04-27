@@ -125,12 +125,12 @@ const reviews = [
   {
     text: "I had a water stain on my first floor ceiling and no idea where it was coming from. Kwik came with their detection equipment, found a pinhole leak in a copper fitting inside the second floor wall, made a small access panel, fixed it, and patched everything. No ripping out the ceiling. Outstanding.",
     name: "Helen T.",
-    location: "Cranston, RI",
+    location: "East Providence, RI",
   },
   {
     text: "My water bill doubled over two months. Kwik pressure-tested the lines, found an underground supply line leak between the meter and the house, dug down to it, and repaired it the same day. Professional, fast, and they backfilled and tamped the soil cleanly.",
     name: "Brian C.",
-    location: "Warwick, RI",
+    location: "Pawtucket, RI",
   },
   {
     text: "Well pump had been short-cycling for months. Kwik diagnosed a waterlogged pressure tank, replaced it with a properly sized unit, and the pump has been running perfectly for over a year now. They saved the pump from burning out.",
@@ -161,7 +161,7 @@ export default function LeakDetectionPage() {
             <p className="text-brand-orange text-xs font-bold uppercase tracking-widest mb-2">Advanced Leak Detection — Rhode Island</p>
             <h2>Find Hidden Leaks Without Tearing Up Your Providence Home</h2>
             <p>
-              A hidden water leak is one of the most insidious problems a homeowner faces. It can silently damage your home&apos;s structure, grow mold inside walls, and run your water bill up for months before it becomes visible. Kwik Plumbing&apos;s leak detection team serves Providence, Cranston, Warwick, and all of Rhode Island with professional-grade detection technology that finds leaks before they become disasters — and without the destructive exploratory work that guesswork requires.
+              A hidden water leak is one of the most insidious problems a homeowner faces. It can silently damage your home&apos;s structure, grow mold inside walls, and run your water bill up for months before it becomes visible. Kwik Plumbing&apos;s leak detection team serves Providence and surrounding areas with professional-grade detection technology that finds leaks before they become disasters — and without the destructive exploratory work that guesswork requires.
             </p>
             <p>
               We use electronic acoustic listening devices, infrared thermal imaging cameras, and digital moisture meters to locate leaks inside walls, under floors, and underground — then confirm location with targeted pressure testing before making a precise repair access. The result is a faster, cleaner fix with minimal disruption to your home.
